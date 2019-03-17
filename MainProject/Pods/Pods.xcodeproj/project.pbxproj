@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0669665C92C53FCC65D02F9FF363B947 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF961E578AA1530EC115885B2F393BC7 /* ViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		08E6BB5ACA112993F9B0E702E8E8D73C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00B0EFD75D79D13B5BAEB047B59B5C6 /* ViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1A15DF4B55AFF9B38ABCB63ED343A545 /* HomeProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */; };
-		578A88290BB711A4662DF6CE6DD6A972 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4925238673A1F5D754730D8A1BEEB745 /* ViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		79F01D78875B086971874D8425C5C1C6 /* DockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B17E57F6ED7CBB7993A8FEE2AB15AF6 /* DockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EEFA9348BF02C8BAE63754A11EC43FD /* UserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2668DB097EBEF99707A28183D52558D3 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35FB01D87A60D81AF19A173722AEE09C /* UserProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */; };
+		46BAAB91925A2E23699DCF5330B06C0D /* DockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5C3E5C1FC4AB829EA2CE3DDB969C7D /* DockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72ADB8D88E16536960D9B6335D90D431 /* HomeProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */; };
+		90CC9F47BA973F1F995A69A81C4B77EB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9214517561E3EC5C4BDF9D497FB47548 /* Pods-LocalKu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */; };
-		E0A76B731C97136DDE9E6CA40BE3693F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B0282210624276FF56A07CB9CF7925 /* ViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EE9CE5C916DF809EA15249971FD4AAB5 /* DockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5C3E5C1FC4AB829EA2CE3DDB969C7D /* DockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FAF4C735BE93AAC4181A4E096939EFB0 /* UserProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */; };
+		B0C852D3176392CBADEE16995140FC8D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B735F75B47FBB16156414A68C4F2D0A8 /* UserViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3EDF6FCC40C90715D57CB6F991AA52D /* DockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B17E57F6ED7CBB7993A8FEE2AB15AF6 /* DockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,28 +37,28 @@
 
 /* Begin PBXFileReference section */
 		065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomeProject-dummy.m"; sourceTree = "<group>"; };
-		12B0282210624276FF56A07CB9CF7925 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1D50AC65D7C715DC13102B7A86D0C2EA /* Pods-LocalKu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.release.xcconfig"; sourceTree = "<group>"; };
 		237ADEF89B4FCF69193EEEB66C865380 /* Pods-LocalKu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.debug.xcconfig"; sourceTree = "<group>"; };
 		2B17E57F6ED7CBB7993A8FEE2AB15AF6 /* DockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DockingHeader.h; sourceTree = "<group>"; };
 		3D5C3E5C1FC4AB829EA2CE3DDB969C7D /* DockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DockingHeader.h; sourceTree = "<group>"; };
-		4925238673A1F5D754730D8A1BEEB745 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UserProject-dummy.m"; sourceTree = "<group>"; };
 		69C8BA7C51B4F1B40E67771948ADDA50 /* UserProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserProject-prefix.pch"; sourceTree = "<group>"; };
+		69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		75A081B55E78402D6D13EC31A7B012E7 /* HomeProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomeProject.xcconfig; sourceTree = "<group>"; };
 		787582DD00F1AC944F4158961F288701 /* HomeProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomeProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalKu-dummy.m"; sourceTree = "<group>"; };
 		7CB762A975746878A857C2D0093F112E /* libHomeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHomeProject.a; path = libHomeProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		83550150ED5454DB9EEC2CA0C3C520AF /* libUserProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUserProject.a; path = libUserProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A00B0EFD75D79D13B5BAEB047B59B5C6 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A061221E2ED423D743B4C966F99CD603 /* Pods-LocalKu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalKu-acknowledgements.plist"; sourceTree = "<group>"; };
 		ADB5A1E35250BDDB0A1F99A32AFE6541 /* HomeProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeProject-prefix.pch"; sourceTree = "<group>"; };
 		B383590F5071F2DDF9F7CD56CF48478A /* libPods-LocalKu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LocalKu.a"; path = "libPods-LocalKu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B735F75B47FBB16156414A68C4F2D0A8 /* UserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
 		CF16C7A54919DB2793B699F89982B8F8 /* UserProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UserProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		D40A0907653FB22422191D96418DD8AB /* UserProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserProject.xcconfig; sourceTree = "<group>"; };
 		DF5EBC1062671544364191AC0554BD8D /* Pods-LocalKu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalKu-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF961E578AA1530EC115885B2F393BC7 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,16 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		021590D5BFD955FBC998D641039D2608 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FF961E578AA1530EC115885B2F393BC7 /* ViewController.h */,
-				A00B0EFD75D79D13B5BAEB047B59B5C6 /* ViewController.m */,
-			);
-			name = ViewController;
-			path = HomeProject/ProjectDirectory/ViewController;
-			sourceTree = "<group>";
-		};
 		0FFB86B304FDF9A96DCF9DC0BAC89DDB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +124,7 @@
 				DA9EDC140942E6A50C25C6DECD6B8DC0 /* ExternalDocking */,
 				1040FC5A0F1CB84966CC81B0D42C16C4 /* Pod */,
 				A24BFC8AFD90D23B80342AC86BF8F547 /* Support Files */,
-				E91055296D2257792817E9A263BED457 /* ViewController */,
+				C397E154F7CBAC420892DAEC5D108BAB /* ViewController */,
 			);
 			name = UserProject;
 			path = ../../UserProject;
@@ -185,6 +175,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		C397E154F7CBAC420892DAEC5D108BAB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */,
+				B735F75B47FBB16156414A68C4F2D0A8 /* UserViewController.m */,
+			);
+			name = ViewController;
+			path = UserProject/ProjectDirectory/ViewController;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +194,16 @@
 				D140DA8A9723AB366251E8490F2BA24E /* Products */,
 				6D5223CBE555636AF1397249797C7C0C /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D139656138B0855D9C1E3DC843554E64 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */,
+				4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */,
+			);
+			name = ViewController;
+			path = HomeProject/ProjectDirectory/ViewController;
 			sourceTree = "<group>";
 		};
 		D140DA8A9723AB366251E8490F2BA24E /* Products */ = {
@@ -222,23 +232,13 @@
 			path = UserProject/ProjectDirectory/ExternalDocking;
 			sourceTree = "<group>";
 		};
-		E91055296D2257792817E9A263BED457 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				4925238673A1F5D754730D8A1BEEB745 /* ViewController.h */,
-				12B0282210624276FF56A07CB9CF7925 /* ViewController.m */,
-			);
-			name = ViewController;
-			path = UserProject/ProjectDirectory/ViewController;
-			sourceTree = "<group>";
-		};
 		FDE56F0C5AEFC65A62914BD7C5AA1FE7 /* HomeProject */ = {
 			isa = PBXGroup;
 			children = (
 				8D7A8498ADD51F2F3D006EA8765FBE41 /* ExternalDocking */,
 				95F1A7BAF0CADEAADE944F830035CFC4 /* Pod */,
 				0FFB86B304FDF9A96DCF9DC0BAC89DDB /* Support Files */,
-				021590D5BFD955FBC998D641039D2608 /* ViewController */,
+				D139656138B0855D9C1E3DC843554E64 /* ViewController */,
 			);
 			name = HomeProject;
 			path = ../../HomeProject;
@@ -247,12 +247,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5654369316594283897740F937C04416 /* Headers */ = {
+		632DB76588D6BD623E173AFB5B9B14DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9CE5C916DF809EA15249971FD4AAB5 /* DockingHeader.h in Headers */,
-				578A88290BB711A4662DF6CE6DD6A972 /* ViewController.h in Headers */,
+				C3EDF6FCC40C90715D57CB6F991AA52D /* DockingHeader.h in Headers */,
+				2668DB097EBEF99707A28183D52558D3 /* HomeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,12 +263,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFCF717839D9FCE02C231186557C36CD /* Headers */ = {
+		D033A9D710A65E6628F28B34B51E6521 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79F01D78875B086971874D8425C5C1C6 /* DockingHeader.h in Headers */,
-				0669665C92C53FCC65D02F9FF363B947 /* ViewController.h in Headers */,
+				46BAAB91925A2E23699DCF5330B06C0D /* DockingHeader.h in Headers */,
+				1EEFA9348BF02C8BAE63754A11EC43FD /* UserViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +279,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAAF035DDA5300708FE171AFB7BEACC8 /* Build configuration list for PBXNativeTarget "UserProject" */;
 			buildPhases = (
-				5654369316594283897740F937C04416 /* Headers */,
-				C8FC2862C5064D411C19C4A2ADDBE549 /* Sources */,
+				D033A9D710A65E6628F28B34B51E6521 /* Headers */,
+				C371C9EDECD4A7377BB6CF3B4EBBE66A /* Sources */,
 				003EA439DC3A814F007B2F04DA64A599 /* Frameworks */,
 			);
 			buildRules = (
@@ -296,8 +296,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8A7116995A90905E445170B313DDA7F /* Build configuration list for PBXNativeTarget "HomeProject" */;
 			buildPhases = (
-				DFCF717839D9FCE02C231186557C36CD /* Headers */,
-				2EB09EF0FDBBA34564DE0EEBB70B7A0E /* Sources */,
+				632DB76588D6BD623E173AFB5B9B14DF /* Headers */,
+				FD334E6A88FC9E9AE8EC36D85AA1EDB6 /* Sources */,
 				D52D382CC76321267581520E40F8172F /* Frameworks */,
 			);
 			buildRules = (
@@ -365,21 +365,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EB09EF0FDBBA34564DE0EEBB70B7A0E /* Sources */ = {
+		C371C9EDECD4A7377BB6CF3B4EBBE66A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A15DF4B55AFF9B38ABCB63ED343A545 /* HomeProject-dummy.m in Sources */,
-				08E6BB5ACA112993F9B0E702E8E8D73C /* ViewController.m in Sources */,
+				35FB01D87A60D81AF19A173722AEE09C /* UserProject-dummy.m in Sources */,
+				B0C852D3176392CBADEE16995140FC8D /* UserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8FC2862C5064D411C19C4A2ADDBE549 /* Sources */ = {
+		FD334E6A88FC9E9AE8EC36D85AA1EDB6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF4C735BE93AAC4181A4E096939EFB0 /* UserProject-dummy.m in Sources */,
-				E0A76B731C97136DDE9E6CA40BE3693F /* ViewController.m in Sources */,
+				72ADB8D88E16536960D9B6335D90D431 /* HomeProject-dummy.m in Sources */,
+				90CC9F47BA973F1F995A69A81C4B77EB /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
