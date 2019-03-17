@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "WXRootNavigationController.h"
 #import <MBMediator+User.h>
+#import <MBMediator+Home.h>
 
 static CGFloat const CYLTabBarControllerHeight = 49.f;
 
@@ -63,7 +64,9 @@ static CGFloat const CYLTabBarControllerHeight = 49.f;
 }
 
 - (NSArray *)viewControllers {
-    HomeViewController *firstViewController = [[HomeViewController alloc] init];
+    
+    UIViewController * firstViewController = [[MBMediator share] backHomeView:@{}];
+    //HomeViewController *firstViewController = [[HomeViewController alloc] init];
     WXRootNavigationController *firstNavigationController = [[WXRootNavigationController alloc]
                                                    initWithRootViewController:firstViewController];
     

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../MediatorProject"
 
 SPEC CHECKSUMS:
-  MediatorProject: 23d0287648e69b234af0668364304c3b9cc30ddc
+  MediatorProject: d7f11365995f6a6a6ea692da25f128d4228a7d11
 
 PODFILE CHECKSUM: d230b61d4d24d5cefe20ba401d6a537e364ccee6
 

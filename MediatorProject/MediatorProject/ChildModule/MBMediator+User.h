@@ -11,4 +11,5 @@
 -(NSString *)User_backUserWithName:(NSDictionary *)parmas;
 //Block回调
 -(void)User_ClickWithBlock:(void(^)(NSString *tyep))block parmas:(NSDictionary *)parmas;
+-(UIViewController *)backUserView:(NSDictionary *)parmas;
 @end

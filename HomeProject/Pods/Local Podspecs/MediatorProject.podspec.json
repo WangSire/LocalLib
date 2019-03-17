@@ -16,8 +16,6 @@
     "ChildModule",
     "MediatorProject/ChildModule/**/*.{h,m}"
   ],
-  "frameworks": "MediatorModel",
-  "vendored_frameworks": "MediatorModel.framework",
   "platforms": {
     "osx": null,
     "ios": null,
