@@ -1,16 +1,3 @@
-PODS:
-  - ChildProject (0.0.1)
-
-DEPENDENCIES:
-  - ChildProject (from `../ChildProject`)
-
-EXTERNAL SOURCES:
-  ChildProject:
-    :path: "../ChildProject"
-
-SPEC CHECKSUMS:
-  ChildProject: ba5975ac5ecdae963a1ae7ffc040b2314ba2a5dd
-
-PODFILE CHECKSUM: e248a3b0c0b66ed4c8b6e5a9d0c6edac0f25c25e
+PODFILE CHECKSUM: b3cc4b7387492842f8132f864aecfe3e0f07b5d1
 
 COCOAPODS: 1.6.1

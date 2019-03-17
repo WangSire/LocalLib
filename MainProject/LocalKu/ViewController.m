@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <MainViewController.h>
-#import <MainModel.h>
+
 @interface ViewController ()
 
 @end
@@ -18,13 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
-    [[MainModel new] initWithName:@"成功"];
+    self.view.backgroundColor = [UIColor orangeColor];
+}
 
-}
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self presentViewController:[MainViewController new] animated:YES completion:nil];
-}
 
 
 - (void)didReceiveMemoryWarning {
