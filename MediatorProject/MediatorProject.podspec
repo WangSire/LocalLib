@@ -115,8 +115,9 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-    spec.framework  = "MediatorModel.framework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+# spec.framework  = "MediatorModel.framework"
+#spec.frameworks = "SomeFramework", "AnotherFramework"
+   spec.vendored_frameworks = 'MediatorModel.framework'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
