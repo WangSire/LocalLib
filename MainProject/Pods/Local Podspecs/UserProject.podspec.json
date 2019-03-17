@@ -1,0 +1,25 @@
+{
+  "name": "UserProject",
+  "version": "0.0.1",
+  "summary": "我的",
+  "description": "我的模块",
+  "homepage": "http://EXAMPLE/UserProject",
+  "license": "MIT",
+  "authors": {
+    "Siri": "75486736@qq.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "ProjectDirectory",
+    "UserProject/ProjectDirectory/**/*.{h,m}"
+  ],
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

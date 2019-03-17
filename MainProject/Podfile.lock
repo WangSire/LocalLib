@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: b3cc4b7387492842f8132f864aecfe3e0f07b5d1
+PODS:
+  - HomeProject (0.0.1)
+  - UserProject (0.0.1)
+
+DEPENDENCIES:
+  - HomeProject (from `../HomeProject`)
+  - UserProject (from `../UserProject`)
+
+EXTERNAL SOURCES:
+  HomeProject:
+    :path: "../HomeProject"
+  UserProject:
+    :path: "../UserProject"
+
+SPEC CHECKSUMS:
+  HomeProject: f8f6c385e89987fd40d2378117774efdc381281a
+  UserProject: 96fa669eec5fc0011edb3ce1cda14df6bc4d1918
+
+PODFILE CHECKSUM: 39165c30483f83d54f3d14fe976f7843e9373aaa
 
 COCOAPODS: 1.6.1

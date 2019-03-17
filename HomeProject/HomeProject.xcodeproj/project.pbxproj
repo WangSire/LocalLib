@@ -14,7 +14,7 @@
 		532034EA223E37580074DE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532034E9223E37580074DE1D /* Assets.xcassets */; };
 		532034ED223E37580074DE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532034EB223E37580074DE1D /* LaunchScreen.storyboard */; };
 		532034F0223E37580074DE1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532034EF223E37580074DE1D /* main.m */; };
-		53203503223E3BA50074DE1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53203501223E3BA50074DE1D /* ViewController.m */; };
+		53203503223E3BA50074DE1D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53203501223E3BA50074DE1D /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		532034EE223E37580074DE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		532034EF223E37580074DE1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		532034FF223E3BA50074DE1D /* DockingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockingHeader.h; sourceTree = "<group>"; };
-		53203501223E3BA50074DE1D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		53203502223E3BA50074DE1D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53203501223E3BA50074DE1D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		53203502223E3BA50074DE1D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		D06D36F18A224D0D3D7382C1 /* Pods-HomeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeProject.debug.xcconfig"; path = "Target Support Files/Pods-HomeProject/Pods-HomeProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,8 +109,8 @@
 		53203500223E3BA50074DE1D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				53203502223E3BA50074DE1D /* ViewController.h */,
-				53203501223E3BA50074DE1D /* ViewController.m */,
+				53203502223E3BA50074DE1D /* HomeViewController.h */,
+				53203501223E3BA50074DE1D /* HomeViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 			files = (
 				532034E8223E37580074DE1D /* HomeProject.xcdatamodeld in Sources */,
 				532034F0223E37580074DE1D /* main.m in Sources */,
-				53203503223E3BA50074DE1D /* ViewController.m in Sources */,
+				53203503223E3BA50074DE1D /* HomeViewController.m in Sources */,
 				532034DF223E37580074DE1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
