@@ -9,6 +9,7 @@
 #import "WXTabBarControllerConfig.h"
 #import <UIKit/UIKit.h>
 #import "WXRootNavigationController.h"
+#import <MBMediator+User.h>
 
 static CGFloat const CYLTabBarControllerHeight = 49.f;
 
@@ -25,8 +26,7 @@ static CGFloat const CYLTabBarControllerHeight = 49.f;
 }
 
 @end
-#import <HomeDockingHeader.h>
-#import <UserDockingHeader.h>
+
 @interface WXTabBarControllerConfig ()<UITabBarControllerDelegate>
 
 @property (nonatomic, readwrite, strong) CYLTabBarController *tabBarController;

@@ -1,21 +1,16 @@
 PODS:
-  - HomeProject (0.0.1)
-  - UserProject (0.0.1)
+  - MediatorProject (0.0.1)
 
 DEPENDENCIES:
-  - HomeProject (from `../HomeProject`)
-  - UserProject (from `../UserProject`)
+  - MediatorProject (from `../MediatorProject`)
 
 EXTERNAL SOURCES:
-  HomeProject:
-    :path: "../HomeProject"
-  UserProject:
-    :path: "../UserProject"
+  MediatorProject:
+    :path: "../MediatorProject"
 
 SPEC CHECKSUMS:
-  HomeProject: f8f6c385e89987fd40d2378117774efdc381281a
-  UserProject: 96fa669eec5fc0011edb3ce1cda14df6bc4d1918
+  MediatorProject: d7f11365995f6a6a6ea692da25f128d4228a7d11
 
-PODFILE CHECKSUM: 39165c30483f83d54f3d14fe976f7843e9373aaa
+PODFILE CHECKSUM: d230b61d4d24d5cefe20ba401d6a537e364ccee6
 
 COCOAPODS: 1.6.1

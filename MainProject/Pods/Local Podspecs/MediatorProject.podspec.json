@@ -1,0 +1,25 @@
+{
+  "name": "MediatorProject",
+  "version": "0.0.1",
+  "summary": "中间件",
+  "description": "子中间件",
+  "homepage": "http://EXAMPLE/MediatorProject",
+  "license": "MIT",
+  "authors": {
+    "Siri": "75486736@qq.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "ChildModule",
+    "MediatorProject/ChildModule/**/*.{h,m}"
+  ],
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

@@ -7,7 +7,6 @@
 //
 
 #import <MediatorModel/MediatorModel.h>
-
 @interface MBMediator (Home)
 -(void)Home_loadHomeName:(NSDictionary *)parmas;
 -(UIViewController *)backHomeView:(NSDictionary *)parmas;

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>HomeProject.xcscheme</key>
+		<key>MediatorProject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,13 +17,6 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
-		</dict>
-		<key>UserProject.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

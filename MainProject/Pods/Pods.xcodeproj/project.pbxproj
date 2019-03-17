@@ -7,76 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26D91E5A3744D017C8A486C935848D03 /* UserDockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ED959C22A80B413AF47FD546EA3BE356 /* UserDockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2DDFD61364C9CDD6CFD799DA302FC3BB /* UserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35FB01D87A60D81AF19A173722AEE09C /* UserProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */; };
-		72ADB8D88E16536960D9B6335D90D431 /* HomeProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */; };
-		8212FF2ED470A56B3CE96C0FB957128F /* HomeDockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 61137C149BD55C08ED4D372A229A8D89 /* HomeDockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		90CC9F47BA973F1F995A69A81C4B77EB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9214517561E3EC5C4BDF9D497FB47548 /* Pods-LocalKu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */; };
-		95EB812AD20BA9F46491F2801264E450 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B0C852D3176392CBADEE16995140FC8D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B735F75B47FBB16156414A68C4F2D0A8 /* UserViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		05E0833338F89B82C2F130AC9061DFCE /* Pods-LocalKu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */; };
+		2974245B5EEEB0F7F21AA9703C5AD381 /* MBMediator+Home.h in Headers */ = {isa = PBXBuildFile; fileRef = D376E90DAC89733830D1BEB48BACCDFE /* MBMediator+Home.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AB859BFE3278F6BC22C368C8BEC1DF7 /* MBMediator+User.h in Headers */ = {isa = PBXBuildFile; fileRef = 87AEB4A70C894232145A6B942170666F /* MBMediator+User.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		618B3F8DA272A93829BB3EE1DE95A3BC /* MBMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD29646BBDA34454147C0AF9E46D85A /* MBMediator+Home.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		953DBF7F772856B0934B2C1DDA956D34 /* MBMediator+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D76143FFD75B45B7F53B37EF2E238 /* MBMediator+User.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5FF6CDA44EDEE466C30EB8BFF221984 /* MediatorProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2709A96D4BFC74AACE301F9CC4BE1BB8 /* MediatorProject-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		682520F9A8F57683949A09812DFAF254 /* PBXContainerItemProxy */ = {
+		5C3089A0C6D43113D8B640A24B3C9E9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1DE89A1D93963FB910C72FEC873CD5BD;
-			remoteInfo = HomeProject;
-		};
-		A63EF860B22A2F90CD4A1A275F4A4628 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A2E9690C9AD4ED9FC6E8831E0EC0835;
-			remoteInfo = UserProject;
+			remoteGlobalIDString = AC3E2832B00BF101FFB1D353458BACEB;
+			remoteInfo = MediatorProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomeProject-dummy.m"; sourceTree = "<group>"; };
+		02044C63210DAE426D4FB9FE0F221B67 /* libMediatorProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMediatorProject.a; path = libMediatorProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CB00051A5E6804100F2FEA78569F5B /* MediatorProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MediatorProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D50AC65D7C715DC13102B7A86D0C2EA /* Pods-LocalKu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.release.xcconfig"; sourceTree = "<group>"; };
 		237ADEF89B4FCF69193EEEB66C865380 /* Pods-LocalKu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.debug.xcconfig"; sourceTree = "<group>"; };
-		4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		61137C149BD55C08ED4D372A229A8D89 /* HomeDockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeDockingHeader.h; sourceTree = "<group>"; };
-		695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UserProject-dummy.m"; sourceTree = "<group>"; };
-		69C8BA7C51B4F1B40E67771948ADDA50 /* UserProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserProject-prefix.pch"; sourceTree = "<group>"; };
-		69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		75A081B55E78402D6D13EC31A7B012E7 /* HomeProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomeProject.xcconfig; sourceTree = "<group>"; };
-		787582DD00F1AC944F4158961F288701 /* HomeProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomeProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2709A96D4BFC74AACE301F9CC4BE1BB8 /* MediatorProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MediatorProject-dummy.m"; sourceTree = "<group>"; };
+		4D2D76143FFD75B45B7F53B37EF2E238 /* MBMediator+User.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBMediator+User.m"; path = "MediatorProject/ChildModule/MBMediator+User.m"; sourceTree = "<group>"; };
 		7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalKu-dummy.m"; sourceTree = "<group>"; };
-		7CB762A975746878A857C2D0093F112E /* libHomeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHomeProject.a; path = libHomeProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		83550150ED5454DB9EEC2CA0C3C520AF /* libUserProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUserProject.a; path = libUserProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		87AEB4A70C894232145A6B942170666F /* MBMediator+User.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBMediator+User.h"; path = "MediatorProject/ChildModule/MBMediator+User.h"; sourceTree = "<group>"; };
+		9962C53355AB12CE1B0FB642A23B2957 /* libPods-LocalKu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LocalKu.a"; path = "libPods-LocalKu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A061221E2ED423D743B4C966F99CD603 /* Pods-LocalKu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalKu-acknowledgements.plist"; sourceTree = "<group>"; };
-		ADB5A1E35250BDDB0A1F99A32AFE6541 /* HomeProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeProject-prefix.pch"; sourceTree = "<group>"; };
-		B383590F5071F2DDF9F7CD56CF48478A /* libPods-LocalKu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LocalKu.a"; path = "libPods-LocalKu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B735F75B47FBB16156414A68C4F2D0A8 /* UserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
-		CF16C7A54919DB2793B699F89982B8F8 /* UserProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UserProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
-		D40A0907653FB22422191D96418DD8AB /* UserProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserProject.xcconfig; sourceTree = "<group>"; };
+		B73A4D3A3B43B98DFE4F961CF1C9B6A4 /* MediatorProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediatorProject.xcconfig; sourceTree = "<group>"; };
+		C24BC93C1173EC03DCBAA2CB4A7E172C /* MediatorProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediatorProject-prefix.pch"; sourceTree = "<group>"; };
+		CFD29646BBDA34454147C0AF9E46D85A /* MBMediator+Home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBMediator+Home.m"; path = "MediatorProject/ChildModule/MBMediator+Home.m"; sourceTree = "<group>"; };
+		D376E90DAC89733830D1BEB48BACCDFE /* MBMediator+Home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBMediator+Home.h"; path = "MediatorProject/ChildModule/MBMediator+Home.h"; sourceTree = "<group>"; };
 		DF5EBC1062671544364191AC0554BD8D /* Pods-LocalKu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalKu-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED959C22A80B413AF47FD546EA3BE356 /* UserDockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserDockingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		003EA439DC3A814F007B2F04DA64A599 /* Frameworks */ = {
+		4B6C6BEAF567F8AD479BAE1720FEF7FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8540B365A318321880CCC3AD3F6E38C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D52D382CC76321267581520E40F8172F /* Frameworks */ = {
+		ED31AE89E88E3D12D8CE80A02828C71B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,32 +62,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FFB86B304FDF9A96DCF9DC0BAC89DDB /* Support Files */ = {
+		46E0D99C9AC6439D29A0518E94A6AA0E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				75A081B55E78402D6D13EC31A7B012E7 /* HomeProject.xcconfig */,
-				065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */,
-				ADB5A1E35250BDDB0A1F99A32AFE6541 /* HomeProject-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../MainProject/Pods/Target Support Files/HomeProject";
-			sourceTree = "<group>";
-		};
-		1040FC5A0F1CB84966CC81B0D42C16C4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CF16C7A54919DB2793B699F89982B8F8 /* UserProject.podspec */,
+				06CB00051A5E6804100F2FEA78569F5B /* MediatorProject.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		1155DDCAC19FDF8BDAEF63EBF5D2415A /* ExternalDocking */ = {
-			isa = PBXGroup;
-			children = (
-				ED959C22A80B413AF47FD546EA3BE356 /* UserDockingHeader.h */,
-			);
-			name = ExternalDocking;
-			path = UserProject/ProjectDirectory/ExternalDocking;
 			sourceTree = "<group>";
 		};
 		60179DA0A3B009B17B782D2685E61CF3 /* Pods-LocalKu */ = {
@@ -127,18 +83,6 @@
 			path = "Target Support Files/Pods-LocalKu";
 			sourceTree = "<group>";
 		};
-		6CDA3CD8CEF9119C10F7FEC587FE18E4 /* UserProject */ = {
-			isa = PBXGroup;
-			children = (
-				1155DDCAC19FDF8BDAEF63EBF5D2415A /* ExternalDocking */,
-				1040FC5A0F1CB84966CC81B0D42C16C4 /* Pod */,
-				A24BFC8AFD90D23B80342AC86BF8F547 /* Support Files */,
-				C397E154F7CBAC420892DAEC5D108BAB /* ViewController */,
-			);
-			name = UserProject;
-			path = ../../UserProject;
-			sourceTree = "<group>";
-		};
 		6D5223CBE555636AF1397249797C7C0C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,82 +91,48 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		95F1A7BAF0CADEAADE944F830035CFC4 /* Pod */ = {
+		BEB19C35376683F27CE5F508C281F57A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				787582DD00F1AC944F4158961F288701 /* HomeProject.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A24BFC8AFD90D23B80342AC86BF8F547 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D40A0907653FB22422191D96418DD8AB /* UserProject.xcconfig */,
-				695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */,
-				69C8BA7C51B4F1B40E67771948ADDA50 /* UserProject-prefix.pch */,
+				B73A4D3A3B43B98DFE4F961CF1C9B6A4 /* MediatorProject.xcconfig */,
+				2709A96D4BFC74AACE301F9CC4BE1BB8 /* MediatorProject-dummy.m */,
+				C24BC93C1173EC03DCBAA2CB4A7E172C /* MediatorProject-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../MainProject/Pods/Target Support Files/UserProject";
+			path = "../MainProject/Pods/Target Support Files/MediatorProject";
 			sourceTree = "<group>";
 		};
-		B7AFB4965B7A3C8F552C2B3A46041C13 /* Development Pods */ = {
+		C2CB15D778CAC0DA5D4FA3E4F877DEA6 /* MediatorProject */ = {
 			isa = PBXGroup;
 			children = (
-				FDE56F0C5AEFC65A62914BD7C5AA1FE7 /* HomeProject */,
-				6CDA3CD8CEF9119C10F7FEC587FE18E4 /* UserProject */,
+				D376E90DAC89733830D1BEB48BACCDFE /* MBMediator+Home.h */,
+				CFD29646BBDA34454147C0AF9E46D85A /* MBMediator+Home.m */,
+				87AEB4A70C894232145A6B942170666F /* MBMediator+User.h */,
+				4D2D76143FFD75B45B7F53B37EF2E238 /* MBMediator+User.m */,
+				46E0D99C9AC6439D29A0518E94A6AA0E /* Pod */,
+				BEB19C35376683F27CE5F508C281F57A /* Support Files */,
+			);
+			name = MediatorProject;
+			path = ../../MediatorProject;
+			sourceTree = "<group>";
+		};
+		CAAADEB4F94961C35A51542E921D993D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB15D778CAC0DA5D4FA3E4F877DEA6 /* MediatorProject */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BBC8C7147DE7ABFD05FD14392BFB4944 /* ExternalDocking */ = {
-			isa = PBXGroup;
-			children = (
-				61137C149BD55C08ED4D372A229A8D89 /* HomeDockingHeader.h */,
-			);
-			name = ExternalDocking;
-			path = HomeProject/ProjectDirectory/ExternalDocking;
-			sourceTree = "<group>";
-		};
-		C397E154F7CBAC420892DAEC5D108BAB /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */,
-				B735F75B47FBB16156414A68C4F2D0A8 /* UserViewController.m */,
-			);
-			name = ViewController;
-			path = UserProject/ProjectDirectory/ViewController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B7AFB4965B7A3C8F552C2B3A46041C13 /* Development Pods */,
+				CAAADEB4F94961C35A51542E921D993D /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				D140DA8A9723AB366251E8490F2BA24E /* Products */,
+				E5F58954DFA87F8C4EDD02245FA6CAA2 /* Products */,
 				6D5223CBE555636AF1397249797C7C0C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D139656138B0855D9C1E3DC843554E64 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */,
-				4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */,
-			);
-			name = ViewController;
-			path = HomeProject/ProjectDirectory/ViewController;
-			sourceTree = "<group>";
-		};
-		D140DA8A9723AB366251E8490F2BA24E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7CB762A975746878A857C2D0093F112E /* libHomeProject.a */,
-				B383590F5071F2DDF9F7CD56CF48478A /* libPods-LocalKu.a */,
-				83550150ED5454DB9EEC2CA0C3C520AF /* libUserProject.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -232,100 +142,70 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDE56F0C5AEFC65A62914BD7C5AA1FE7 /* HomeProject */ = {
+		E5F58954DFA87F8C4EDD02245FA6CAA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBC8C7147DE7ABFD05FD14392BFB4944 /* ExternalDocking */,
-				95F1A7BAF0CADEAADE944F830035CFC4 /* Pod */,
-				0FFB86B304FDF9A96DCF9DC0BAC89DDB /* Support Files */,
-				D139656138B0855D9C1E3DC843554E64 /* ViewController */,
+				02044C63210DAE426D4FB9FE0F221B67 /* libMediatorProject.a */,
+				9962C53355AB12CE1B0FB642A23B2957 /* libPods-LocalKu.a */,
 			);
-			name = HomeProject;
-			path = ../../HomeProject;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		677C71C29F23A45EA379E25EA379A123 /* Headers */ = {
+		2AF334864AA5FC8DBA7FE33520B3FC1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D91E5A3744D017C8A486C935848D03 /* UserDockingHeader.h in Headers */,
-				2DDFD61364C9CDD6CFD799DA302FC3BB /* UserViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		779CE7F9F5064F733158916F49955785 /* Headers */ = {
+		4957F8440FFA19F0A93ACDEA56704633 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8212FF2ED470A56B3CE96C0FB957128F /* HomeDockingHeader.h in Headers */,
-				95EB812AD20BA9F46491F2801264E450 /* HomeViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1BA1B0532C2902601A3852A38C32EC5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2974245B5EEEB0F7F21AA9703C5AD381 /* MBMediator+Home.h in Headers */,
+				4AB859BFE3278F6BC22C368C8BEC1DF7 /* MBMediator+User.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A2E9690C9AD4ED9FC6E8831E0EC0835 /* UserProject */ = {
+		36C56022C44513739D224F7E652AAD46 /* Pods-LocalKu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAAF035DDA5300708FE171AFB7BEACC8 /* Build configuration list for PBXNativeTarget "UserProject" */;
+			buildConfigurationList = 183324C094670A1CA4F2C9C3C7E3A4E6 /* Build configuration list for PBXNativeTarget "Pods-LocalKu" */;
 			buildPhases = (
-				677C71C29F23A45EA379E25EA379A123 /* Headers */,
-				C371C9EDECD4A7377BB6CF3B4EBBE66A /* Sources */,
-				003EA439DC3A814F007B2F04DA64A599 /* Frameworks */,
+				2AF334864AA5FC8DBA7FE33520B3FC1F /* Headers */,
+				2A4BEB749585CBAE334C67CD264B5D01 /* Sources */,
+				ED31AE89E88E3D12D8CE80A02828C71B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = UserProject;
-			productName = UserProject;
-			productReference = 83550150ED5454DB9EEC2CA0C3C520AF /* libUserProject.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		1DE89A1D93963FB910C72FEC873CD5BD /* HomeProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E8A7116995A90905E445170B313DDA7F /* Build configuration list for PBXNativeTarget "HomeProject" */;
-			buildPhases = (
-				779CE7F9F5064F733158916F49955785 /* Headers */,
-				FD334E6A88FC9E9AE8EC36D85AA1EDB6 /* Sources */,
-				D52D382CC76321267581520E40F8172F /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HomeProject;
-			productName = HomeProject;
-			productReference = 7CB762A975746878A857C2D0093F112E /* libHomeProject.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E099BA05A34495D557E3B99F110A42C5 /* Pods-LocalKu */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93F5DA1D9F41C0A4FC486D7E2A476B88 /* Build configuration list for PBXNativeTarget "Pods-LocalKu" */;
-			buildPhases = (
-				B1BA1B0532C2902601A3852A38C32EC5 /* Headers */,
-				273D5D9B6801F7E542200F857F1018CF /* Sources */,
-				8540B365A318321880CCC3AD3F6E38C0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				953AA998D1E9C6542A9BD9581EDC78E3 /* PBXTargetDependency */,
-				9F29668B69FE7F6C3507AF0050765D59 /* PBXTargetDependency */,
+				06A0C1BB8BC281C74ED6F2B9B3176944 /* PBXTargetDependency */,
 			);
 			name = "Pods-LocalKu";
 			productName = "Pods-LocalKu";
-			productReference = B383590F5071F2DDF9F7CD56CF48478A /* libPods-LocalKu.a */;
+			productReference = 9962C53355AB12CE1B0FB642A23B2957 /* libPods-LocalKu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC3E2832B00BF101FFB1D353458BACEB /* MediatorProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50556404F1A805662C81CBACC8F5491 /* Build configuration list for PBXNativeTarget "MediatorProject" */;
+			buildPhases = (
+				4957F8440FFA19F0A93ACDEA56704633 /* Headers */,
+				7FFEB2565C52AEB62981D15B922E08DC /* Sources */,
+				4B6C6BEAF567F8AD479BAE1720FEF7FC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediatorProject;
+			productName = MediatorProject;
+			productReference = 02044C63210DAE426D4FB9FE0F221B67 /* libMediatorProject.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -345,84 +225,47 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D140DA8A9723AB366251E8490F2BA24E /* Products */;
+			productRefGroup = E5F58954DFA87F8C4EDD02245FA6CAA2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1DE89A1D93963FB910C72FEC873CD5BD /* HomeProject */,
-				E099BA05A34495D557E3B99F110A42C5 /* Pods-LocalKu */,
-				1A2E9690C9AD4ED9FC6E8831E0EC0835 /* UserProject */,
+				AC3E2832B00BF101FFB1D353458BACEB /* MediatorProject */,
+				36C56022C44513739D224F7E652AAD46 /* Pods-LocalKu */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		273D5D9B6801F7E542200F857F1018CF /* Sources */ = {
+		2A4BEB749585CBAE334C67CD264B5D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9214517561E3EC5C4BDF9D497FB47548 /* Pods-LocalKu-dummy.m in Sources */,
+				05E0833338F89B82C2F130AC9061DFCE /* Pods-LocalKu-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C371C9EDECD4A7377BB6CF3B4EBBE66A /* Sources */ = {
+		7FFEB2565C52AEB62981D15B922E08DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35FB01D87A60D81AF19A173722AEE09C /* UserProject-dummy.m in Sources */,
-				B0C852D3176392CBADEE16995140FC8D /* UserViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD334E6A88FC9E9AE8EC36D85AA1EDB6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72ADB8D88E16536960D9B6335D90D431 /* HomeProject-dummy.m in Sources */,
-				90CC9F47BA973F1F995A69A81C4B77EB /* HomeViewController.m in Sources */,
+				618B3F8DA272A93829BB3EE1DE95A3BC /* MBMediator+Home.m in Sources */,
+				953DBF7F772856B0934B2C1DDA956D34 /* MBMediator+User.m in Sources */,
+				F5FF6CDA44EDEE466C30EB8BFF221984 /* MediatorProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		953AA998D1E9C6542A9BD9581EDC78E3 /* PBXTargetDependency */ = {
+		06A0C1BB8BC281C74ED6F2B9B3176944 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HomeProject;
-			target = 1DE89A1D93963FB910C72FEC873CD5BD /* HomeProject */;
-			targetProxy = 682520F9A8F57683949A09812DFAF254 /* PBXContainerItemProxy */;
-		};
-		9F29668B69FE7F6C3507AF0050765D59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UserProject;
-			target = 1A2E9690C9AD4ED9FC6E8831E0EC0835 /* UserProject */;
-			targetProxy = A63EF860B22A2F90CD4A1A275F4A4628 /* PBXContainerItemProxy */;
+			name = MediatorProject;
+			target = AC3E2832B00BF101FFB1D353458BACEB /* MediatorProject */;
+			targetProxy = 5C3089A0C6D43113D8B640A24B3C9E9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0005678947D08E2F92B7FB258C58E809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D50AC65D7C715DC13102B7A86D0C2EA /* Pods-LocalKu.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -483,22 +326,22 @@
 			};
 			name = Release;
 		};
-		1C7D174965B04F50508F649AE60758A3 /* Release */ = {
+		22E3D99503D6875CA68BD6DAE1F222D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D40A0907653FB22422191D96418DD8AB /* UserProject.xcconfig */;
+			baseConfigurationReference = B73A4D3A3B43B98DFE4F961CF1C9B6A4 /* MediatorProject.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/UserProject/UserProject-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/MediatorProject/MediatorProject-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = UserProject;
-				PRODUCT_NAME = UserProject;
+				PRODUCT_MODULE_NAME = MediatorProject;
+				PRODUCT_NAME = MediatorProject;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -507,6 +350,30 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		2EBE990FE5E315A243F996CC0D5519DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73A4D3A3B43B98DFE4F961CF1C9B6A4 /* MediatorProject.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MediatorProject/MediatorProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MediatorProject;
+				PRODUCT_NAME = MediatorProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -572,31 +439,29 @@
 			};
 			name = Debug;
 		};
-		6B19C9423644321874B44CB8C3D4BE7B /* Debug */ = {
+		7D1652357B4075472EF5DB44C4BF34BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75A081B55E78402D6D13EC31A7B012E7 /* HomeProject.xcconfig */;
+			baseConfigurationReference = 1D50AC65D7C715DC13102B7A86D0C2EA /* Pods-LocalKu.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/HomeProject/HomeProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = HomeProject;
-				PRODUCT_NAME = HomeProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		7E48876C554777D1A2300BC8CCE1EEEB /* Debug */ = {
+		C066503C0C355B733C6BCF7A581481AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 237ADEF89B4FCF69193EEEB66C865380 /* Pods-LocalKu.debug.xcconfig */;
 			buildSettings = {
@@ -617,58 +482,18 @@
 			};
 			name = Debug;
 		};
-		8699AE30041CA9935F630A2A5ED5D460 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75A081B55E78402D6D13EC31A7B012E7 /* HomeProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/HomeProject/HomeProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = HomeProject;
-				PRODUCT_NAME = HomeProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		ED43D5CD31B2DD8575F38522760485BF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D40A0907653FB22422191D96418DD8AB /* UserProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/UserProject/UserProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = UserProject;
-				PRODUCT_NAME = UserProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		183324C094670A1CA4F2C9C3C7E3A4E6 /* Build configuration list for PBXNativeTarget "Pods-LocalKu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C066503C0C355B733C6BCF7A581481AC /* Debug */,
+				7D1652357B4075472EF5DB44C4BF34BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -678,29 +503,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93F5DA1D9F41C0A4FC486D7E2A476B88 /* Build configuration list for PBXNativeTarget "Pods-LocalKu" */ = {
+		C50556404F1A805662C81CBACC8F5491 /* Build configuration list for PBXNativeTarget "MediatorProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E48876C554777D1A2300BC8CCE1EEEB /* Debug */,
-				0005678947D08E2F92B7FB258C58E809 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAAF035DDA5300708FE171AFB7BEACC8 /* Build configuration list for PBXNativeTarget "UserProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ED43D5CD31B2DD8575F38522760485BF /* Debug */,
-				1C7D174965B04F50508F649AE60758A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E8A7116995A90905E445170B313DDA7F /* Build configuration list for PBXNativeTarget "HomeProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B19C9423644321874B44CB8C3D4BE7B /* Debug */,
-				8699AE30041CA9935F630A2A5ED5D460 /* Release */,
+				2EBE990FE5E315A243F996CC0D5519DA /* Debug */,
+				22E3D99503D6875CA68BD6DAE1F222D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
