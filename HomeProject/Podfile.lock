@@ -1,0 +1,38 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - SAMKeychain (1.5.3)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+
+DEPENDENCIES:
+  - DZNEmptyDataSet (~> 1.8.1)
+  - Masonry (~> 1.1.0)
+  - MJExtension
+  - SAMKeychain
+  - SDWebImage
+  - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - Masonry
+    - MJExtension
+    - SAMKeychain
+    - SDWebImage
+    - "UITableView+FDTemplateLayoutCell"
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: 6bc0fcf45d704b44631622ce95f503277f9793ba
+
+COCOAPODS: 1.6.1

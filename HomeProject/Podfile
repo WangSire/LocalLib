@@ -1,0 +1,11 @@
+platform:ios, ‘8.0’
+
+target 'HomeProject' do
+pod 'Masonry', '~> 1.1.0'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+pod 'DZNEmptyDataSet', '~> 1.8.1'
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'SAMKeychain'
+end
+
