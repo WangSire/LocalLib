@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		722AE8B8AD41B15B7932AED0CF6C07EB /* Pods-LocalKu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */; };
-		9F9F60D9D6694B18141E222FA58E1507 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382CD874231D4F240029C4099C33F038 /* MainViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B274753ED75336E8F3DF29CD18A6516E /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B58AC62E5D097BB51A879FF8D2D9E9 /* MainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CAD743EEC388F35EC40DC19A3DEEB3A3 /* ChildProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F61E7BB62BF93F6B5C4D803A787B06 /* ChildProject-dummy.m */; };
+		77F3C6BCEC5D8D494010A4C5CBB1A343 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A34F1F5F57D957D5A118A6D903D094 /* MainViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97CAAE1B965184B2613B60A675149FE2 /* MainModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B333663A1F54DC9153C37C8F6A639CA /* MainModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A72B8208CA46C7D56875E332636F0880 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C7E4116865360BB85DE384AEDB2233 /* MainModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DAF46C87A949A3D21141EAE0ED9CC4F5 /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A015DCBF2DF4F545C366445F381D1 /* MainViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC981BCD852DA4C9E7F4895328A07F4B /* ChildProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D6A86B3B99592F4CADFBB9E298A0FC /* ChildProject-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -18,30 +20,32 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D237ED4AF5ADAFCB179E26A7C7C8CEC4;
+			remoteGlobalIDString = C5A98A5493B1DD1128162FB485F411FD;
 			remoteInfo = ChildProject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A267FA6000CE8D2B33426C87AA11D6F /* ChildProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChildProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0F0EB2F282A4FFE63372D838843D8E39 /* libChildProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libChildProject.a; path = libChildProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D50AC65D7C715DC13102B7A86D0C2EA /* Pods-LocalKu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.release.xcconfig"; sourceTree = "<group>"; };
 		237ADEF89B4FCF69193EEEB66C865380 /* Pods-LocalKu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.debug.xcconfig"; sourceTree = "<group>"; };
-		2DD28552C3D84964984536F5B21AF03F /* ChildProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChildProject-prefix.pch"; sourceTree = "<group>"; };
-		305DCBC3316B55682D6C2685D2A6E2C5 /* ChildProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChildProject.xcconfig; sourceTree = "<group>"; };
-		382CD874231D4F240029C4099C33F038 /* MainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ChildProject/MainClass/MainViewController.m; sourceTree = "<group>"; };
-		54F61E7BB62BF93F6B5C4D803A787B06 /* ChildProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChildProject-dummy.m"; sourceTree = "<group>"; };
+		298DE8CAE74DE1F8BCD77607E710ACF7 /* ChildProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChildProject-prefix.pch"; sourceTree = "<group>"; };
 		7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalKu-dummy.m"; sourceTree = "<group>"; };
+		8B333663A1F54DC9153C37C8F6A639CA /* MainModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		8DDF019577B381748F6A0A2B7DD7AC91 /* ChildProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChildProject.xcconfig; sourceTree = "<group>"; };
+		93A34F1F5F57D957D5A118A6D903D094 /* MainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ChildProject/MainClass/MainViewController.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A061221E2ED423D743B4C966F99CD603 /* Pods-LocalKu-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalKu-acknowledgements.plist"; sourceTree = "<group>"; };
+		A92E394C313C12946020BFB2DAAD4DB0 /* ChildProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChildProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0D6A86B3B99592F4CADFBB9E298A0FC /* ChildProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChildProject-dummy.m"; sourceTree = "<group>"; };
 		C9B89A7AD89B5AF96A5201B204C84A76 /* libPods-LocalKu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LocalKu.a"; path = "libPods-LocalKu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1B58AC62E5D097BB51A879FF8D2D9E9 /* MainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ChildProject/MainClass/MainViewController.h; sourceTree = "<group>"; };
+		CA1A015DCBF2DF4F545C366445F381D1 /* MainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ChildProject/MainClass/MainViewController.h; sourceTree = "<group>"; };
 		DF5EBC1062671544364191AC0554BD8D /* Pods-LocalKu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalKu-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3C7E4116865360BB85DE384AEDB2233 /* MainModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84DFD5380E611EA943B162E205709901 /* Frameworks */ = {
+		CDEBA95DA4F8C24CF4D11C302EFF1CB6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,15 +62,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35A81D3D7A3AB4F3A66ECDCE7F0D1C6A /* Support Files */ = {
+		1BBFDAFC85541E87DF5812AA2F93550F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				305DCBC3316B55682D6C2685D2A6E2C5 /* ChildProject.xcconfig */,
-				54F61E7BB62BF93F6B5C4D803A787B06 /* ChildProject-dummy.m */,
-				2DD28552C3D84964984536F5B21AF03F /* ChildProject-prefix.pch */,
+				8DDF019577B381748F6A0A2B7DD7AC91 /* ChildProject.xcconfig */,
+				B0D6A86B3B99592F4CADFBB9E298A0FC /* ChildProject-dummy.m */,
+				298DE8CAE74DE1F8BCD77607E710ACF7 /* ChildProject-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../MainProject/Pods/Target Support Files/ChildProject";
+			sourceTree = "<group>";
+		};
+		2D0C86C9FB65498D1B92733731A46169 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC275B76658E4A5A48527B690E73ADA6 /* ChildProject */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3746293A2B92EE0FD5672D469459119E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A92E394C313C12946020BFB2DAAD4DB0 /* ChildProject.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		60179DA0A3B009B17B782D2685E61CF3 /* Pods-LocalKu */ = {
@@ -90,27 +110,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A491CBD32A4525BBD72610E0405CE93C /* Development Pods */ = {
+		BC275B76658E4A5A48527B690E73ADA6 /* ChildProject */ = {
 			isa = PBXGroup;
 			children = (
-				EF966BEF89478EAE4967685CBB8C2FF6 /* ChildProject */,
+				CA1A015DCBF2DF4F545C366445F381D1 /* MainViewController.h */,
+				93A34F1F5F57D957D5A118A6D903D094 /* MainViewController.m */,
+				D60BC71335450D1D03EC372E53AFE92E /* Model */,
+				3746293A2B92EE0FD5672D469459119E /* Pod */,
+				1BBFDAFC85541E87DF5812AA2F93550F /* Support Files */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BBE2D7767C9FC8D0839062417470D41A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0A267FA6000CE8D2B33426C87AA11D6F /* ChildProject.podspec */,
-			);
-			name = Pod;
+			name = ChildProject;
+			path = ../../ChildProject;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A491CBD32A4525BBD72610E0405CE93C /* Development Pods */,
+				2D0C86C9FB65498D1B92733731A46169 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				D0FBEF18DEA02078C202EA6E4AF865BC /* Products */,
 				6D5223CBE555636AF1397249797C7C0C /* Targets Support Files */,
@@ -126,6 +143,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D60BC71335450D1D03EC372E53AFE92E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B333663A1F54DC9153C37C8F6A639CA /* MainModel.h */,
+				F3C7E4116865360BB85DE384AEDB2233 /* MainModel.m */,
+			);
+			name = Model;
+			path = ChildProject/MainClass/Model;
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,33 +160,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF966BEF89478EAE4967685CBB8C2FF6 /* ChildProject */ = {
-			isa = PBXGroup;
-			children = (
-				D1B58AC62E5D097BB51A879FF8D2D9E9 /* MainViewController.h */,
-				382CD874231D4F240029C4099C33F038 /* MainViewController.m */,
-				BBE2D7767C9FC8D0839062417470D41A /* Pod */,
-				35A81D3D7A3AB4F3A66ECDCE7F0D1C6A /* Support Files */,
-			);
-			name = ChildProject;
-			path = ../../ChildProject;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		91BE276DF1B16CC8856CFC71B16D3C9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CAAE1B965184B2613B60A675149FE2 /* MainModel.h in Headers */,
+				DAF46C87A949A3D21141EAE0ED9CC4F5 /* MainViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3A1C6525135CA9B3175AE3D1EF40D73 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F12819064A180F75A4162D2025AD7B87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B274753ED75336E8F3DF29CD18A6516E /* MainViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,13 +200,13 @@
 			productReference = C9B89A7AD89B5AF96A5201B204C84A76 /* libPods-LocalKu.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D237ED4AF5ADAFCB179E26A7C7C8CEC4 /* ChildProject */ = {
+		C5A98A5493B1DD1128162FB485F411FD /* ChildProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F31F03F6C800932C03C792826839A0E /* Build configuration list for PBXNativeTarget "ChildProject" */;
+			buildConfigurationList = 9BA3C3D26B85F902A106EB9BF28B2132 /* Build configuration list for PBXNativeTarget "ChildProject" */;
 			buildPhases = (
-				F12819064A180F75A4162D2025AD7B87 /* Headers */,
-				F16D3125BFFA48A923453B11D6B274F9 /* Sources */,
-				84DFD5380E611EA943B162E205709901 /* Frameworks */,
+				91BE276DF1B16CC8856CFC71B16D3C9B /* Headers */,
+				2CCBE0505FD958EB348407742F32DC7E /* Sources */,
+				CDEBA95DA4F8C24CF4D11C302EFF1CB6 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D237ED4AF5ADAFCB179E26A7C7C8CEC4 /* ChildProject */,
+				C5A98A5493B1DD1128162FB485F411FD /* ChildProject */,
 				5585D0AFDF265F5BB9C6C5FE02207C51 /* Pods-LocalKu */,
 			);
 		};
@@ -237,12 +253,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F16D3125BFFA48A923453B11D6B274F9 /* Sources */ = {
+		2CCBE0505FD958EB348407742F32DC7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD743EEC388F35EC40DC19A3DEEB3A3 /* ChildProject-dummy.m in Sources */,
-				9F9F60D9D6694B18141E222FA58E1507 /* MainViewController.m in Sources */,
+				DC981BCD852DA4C9E7F4895328A07F4B /* ChildProject-dummy.m in Sources */,
+				A72B8208CA46C7D56875E332636F0880 /* MainModel.m in Sources */,
+				77F3C6BCEC5D8D494010A4C5CBB1A343 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +269,7 @@
 		EC852C59AD72F363A215C2C1EC044D88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChildProject;
-			target = D237ED4AF5ADAFCB179E26A7C7C8CEC4 /* ChildProject */;
+			target = C5A98A5493B1DD1128162FB485F411FD /* ChildProject */;
 			targetProxy = 3A8F4DFB5DCEC5A43713970F8A16ADE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -315,6 +332,55 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		266AA6BB97A434AA69BCFE27A7F2F6AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDF019577B381748F6A0A2B7DD7AC91 /* ChildProject.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ChildProject/ChildProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ChildProject;
+				PRODUCT_NAME = ChildProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34D6766D0CA7ABEB9CBFC4F13AF7F257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDF019577B381748F6A0A2B7DD7AC91 /* ChildProject.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ChildProject/ChildProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ChildProject;
+				PRODUCT_NAME = ChildProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -425,55 +491,6 @@
 			};
 			name = Debug;
 		};
-		A7DCCA28987B22B1B4E81154996F2202 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 305DCBC3316B55682D6C2685D2A6E2C5 /* ChildProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ChildProject/ChildProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ChildProject;
-				PRODUCT_NAME = ChildProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EB6A254D5828BE314FA9C7C63828BE95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 305DCBC3316B55682D6C2685D2A6E2C5 /* ChildProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ChildProject/ChildProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ChildProject;
-				PRODUCT_NAME = ChildProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -486,20 +503,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F31F03F6C800932C03C792826839A0E /* Build configuration list for PBXNativeTarget "ChildProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7DCCA28987B22B1B4E81154996F2202 /* Debug */,
-				EB6A254D5828BE314FA9C7C63828BE95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
 				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BA3C3D26B85F902A106EB9BF28B2132 /* Build configuration list for PBXNativeTarget "ChildProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266AA6BB97A434AA69BCFE27A7F2F6AD /* Debug */,
+				34D6766D0CA7ABEB9CBFC4F13AF7F257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

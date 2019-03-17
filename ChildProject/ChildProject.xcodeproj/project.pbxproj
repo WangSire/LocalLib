@@ -15,6 +15,7 @@
 		5320349B223E2E4D0074DE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53203499223E2E4D0074DE1D /* LaunchScreen.storyboard */; };
 		5320349E223E2E4D0074DE1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5320349D223E2E4D0074DE1D /* main.m */; };
 		532034A7223E2EDF0074DE1D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532034A6223E2EDF0074DE1D /* MainViewController.m */; };
+		532034AB223E33D10074DE1D /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 532034AA223E33D10074DE1D /* MainModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		5320349D223E2E4D0074DE1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		532034A5223E2EDF0074DE1D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		532034A6223E2EDF0074DE1D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		532034A9223E33D10074DE1D /* MainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		532034AA223E33D10074DE1D /* MainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,20 @@
 		532034A4223E2ED30074DE1D /* MainClass */ = {
 			isa = PBXGroup;
 			children = (
+				532034A8223E33BE0074DE1D /* Model */,
 				532034A5223E2EDF0074DE1D /* MainViewController.h */,
 				532034A6223E2EDF0074DE1D /* MainViewController.m */,
 			);
 			path = MainClass;
+			sourceTree = "<group>";
+		};
+		532034A8223E33BE0074DE1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				532034A9223E33D10074DE1D /* MainModel.h */,
+				532034AA223E33D10074DE1D /* MainModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +172,7 @@
 			files = (
 				53203496223E2E4C0074DE1D /* ChildProject.xcdatamodeld in Sources */,
 				53203490223E2E4C0074DE1D /* ViewController.m in Sources */,
+				532034AB223E33D10074DE1D /* MainModel.m in Sources */,
 				5320349E223E2E4D0074DE1D /* main.m in Sources */,
 				532034A7223E2EDF0074DE1D /* MainViewController.m in Sources */,
 				5320348D223E2E4C0074DE1D /* AppDelegate.m in Sources */,
