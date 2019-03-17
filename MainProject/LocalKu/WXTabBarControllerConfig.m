@@ -65,12 +65,13 @@ static CGFloat const CYLTabBarControllerHeight = 49.f;
 
 - (NSArray *)viewControllers {
     
-    UIViewController * firstViewController = [[MBMediator share] backHomeView:@{}];
+    UIViewController * firstViewController = [[MBMediator share] backHomeView:@{@"VCName":@"Home"}];
     //HomeViewController *firstViewController = [[HomeViewController alloc] init];
     WXRootNavigationController *firstNavigationController = [[WXRootNavigationController alloc]
                                                    initWithRootViewController:firstViewController];
     
-    UserViewController *secondViewController = [[UserViewController alloc] init];
+    UIViewController *secondViewController = [[MBMediator share] backUserView:@{}];
+//    UserViewController *secondViewController = [[UserViewController alloc] init];
     WXRootNavigationController *secondNavigationController = [[WXRootNavigationController alloc]
                                                     initWithRootViewController:secondViewController];
     

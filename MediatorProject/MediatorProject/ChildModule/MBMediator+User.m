@@ -23,7 +23,7 @@
     [self initWithTager:@"User" action:@"ClickWithBlockParmas" params:dic];
 }
 
--(UIViewController *)backHomeView:(NSDictionary *)parmas
+-(UIViewController *)backUserView:(NSDictionary *)parmas
 {
     return [self initWithTager:@"User" action:@"UserView" params:parmas];
 }
