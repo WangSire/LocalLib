@@ -1,14 +1,13 @@
 //
 //  ViewController.m
-//  LocalKu
+//  MediatorProject
 //
 //  Created by Siri on 2019/3/17.
 //  Copyright © 2019年 Siri. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "<#header#>"
-
+#import <MediatorModel/MediatorModel.h>
 @interface ViewController ()
 
 @end
@@ -18,9 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor orangeColor];
+    
 }
-
 
 
 - (void)didReceiveMemoryWarning {

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EEFA9348BF02C8BAE63754A11EC43FD /* UserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2668DB097EBEF99707A28183D52558D3 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26D91E5A3744D017C8A486C935848D03 /* UserDockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = ED959C22A80B413AF47FD546EA3BE356 /* UserDockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DDFD61364C9CDD6CFD799DA302FC3BB /* UserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		35FB01D87A60D81AF19A173722AEE09C /* UserProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */; };
-		46BAAB91925A2E23699DCF5330B06C0D /* DockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5C3E5C1FC4AB829EA2CE3DDB969C7D /* DockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		72ADB8D88E16536960D9B6335D90D431 /* HomeProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */; };
+		8212FF2ED470A56B3CE96C0FB957128F /* HomeDockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 61137C149BD55C08ED4D372A229A8D89 /* HomeDockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		90CC9F47BA973F1F995A69A81C4B77EB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9214517561E3EC5C4BDF9D497FB47548 /* Pods-LocalKu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7939FF415BBFB6C8A03E2DD3513CCA68 /* Pods-LocalKu-dummy.m */; };
+		95EB812AD20BA9F46491F2801264E450 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B0C852D3176392CBADEE16995140FC8D /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B735F75B47FBB16156414A68C4F2D0A8 /* UserViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C3EDF6FCC40C90715D57CB6F991AA52D /* DockingHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B17E57F6ED7CBB7993A8FEE2AB15AF6 /* DockingHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,8 @@
 		065A71BB573E400551C8B6B881177918 /* HomeProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomeProject-dummy.m"; sourceTree = "<group>"; };
 		1D50AC65D7C715DC13102B7A86D0C2EA /* Pods-LocalKu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.release.xcconfig"; sourceTree = "<group>"; };
 		237ADEF89B4FCF69193EEEB66C865380 /* Pods-LocalKu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalKu.debug.xcconfig"; sourceTree = "<group>"; };
-		2B17E57F6ED7CBB7993A8FEE2AB15AF6 /* DockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DockingHeader.h; sourceTree = "<group>"; };
-		3D5C3E5C1FC4AB829EA2CE3DDB969C7D /* DockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DockingHeader.h; sourceTree = "<group>"; };
 		4AFE399C3A7ADF0660CF9EFE674704DF /* HomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		61137C149BD55C08ED4D372A229A8D89 /* HomeDockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeDockingHeader.h; sourceTree = "<group>"; };
 		695C66FA6143C2B71057975377604437 /* UserProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UserProject-dummy.m"; sourceTree = "<group>"; };
 		69C8BA7C51B4F1B40E67771948ADDA50 /* UserProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UserProject-prefix.pch"; sourceTree = "<group>"; };
 		69EE9FC041B88E478F39BD4615B62D73 /* HomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		D4053B840CE666F23C5F7DDF371D6726 /* UserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
 		D40A0907653FB22422191D96418DD8AB /* UserProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UserProject.xcconfig; sourceTree = "<group>"; };
 		DF5EBC1062671544364191AC0554BD8D /* Pods-LocalKu-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalKu-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED959C22A80B413AF47FD546EA3BE356 /* UserDockingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UserDockingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +105,15 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		1155DDCAC19FDF8BDAEF63EBF5D2415A /* ExternalDocking */ = {
+			isa = PBXGroup;
+			children = (
+				ED959C22A80B413AF47FD546EA3BE356 /* UserDockingHeader.h */,
+			);
+			name = ExternalDocking;
+			path = UserProject/ProjectDirectory/ExternalDocking;
+			sourceTree = "<group>";
+		};
 		60179DA0A3B009B17B782D2685E61CF3 /* Pods-LocalKu */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,7 +130,7 @@
 		6CDA3CD8CEF9119C10F7FEC587FE18E4 /* UserProject */ = {
 			isa = PBXGroup;
 			children = (
-				DA9EDC140942E6A50C25C6DECD6B8DC0 /* ExternalDocking */,
+				1155DDCAC19FDF8BDAEF63EBF5D2415A /* ExternalDocking */,
 				1040FC5A0F1CB84966CC81B0D42C16C4 /* Pod */,
 				A24BFC8AFD90D23B80342AC86BF8F547 /* Support Files */,
 				C397E154F7CBAC420892DAEC5D108BAB /* ViewController */,
@@ -136,15 +145,6 @@
 				60179DA0A3B009B17B782D2685E61CF3 /* Pods-LocalKu */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8D7A8498ADD51F2F3D006EA8765FBE41 /* ExternalDocking */ = {
-			isa = PBXGroup;
-			children = (
-				2B17E57F6ED7CBB7993A8FEE2AB15AF6 /* DockingHeader.h */,
-			);
-			name = ExternalDocking;
-			path = HomeProject/ProjectDirectory/ExternalDocking;
 			sourceTree = "<group>";
 		};
 		95F1A7BAF0CADEAADE944F830035CFC4 /* Pod */ = {
@@ -173,6 +173,15 @@
 				6CDA3CD8CEF9119C10F7FEC587FE18E4 /* UserProject */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BBC8C7147DE7ABFD05FD14392BFB4944 /* ExternalDocking */ = {
+			isa = PBXGroup;
+			children = (
+				61137C149BD55C08ED4D372A229A8D89 /* HomeDockingHeader.h */,
+			);
+			name = ExternalDocking;
+			path = HomeProject/ProjectDirectory/ExternalDocking;
 			sourceTree = "<group>";
 		};
 		C397E154F7CBAC420892DAEC5D108BAB /* ViewController */ = {
@@ -223,19 +232,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA9EDC140942E6A50C25C6DECD6B8DC0 /* ExternalDocking */ = {
-			isa = PBXGroup;
-			children = (
-				3D5C3E5C1FC4AB829EA2CE3DDB969C7D /* DockingHeader.h */,
-			);
-			name = ExternalDocking;
-			path = UserProject/ProjectDirectory/ExternalDocking;
-			sourceTree = "<group>";
-		};
 		FDE56F0C5AEFC65A62914BD7C5AA1FE7 /* HomeProject */ = {
 			isa = PBXGroup;
 			children = (
-				8D7A8498ADD51F2F3D006EA8765FBE41 /* ExternalDocking */,
+				BBC8C7147DE7ABFD05FD14392BFB4944 /* ExternalDocking */,
 				95F1A7BAF0CADEAADE944F830035CFC4 /* Pod */,
 				0FFB86B304FDF9A96DCF9DC0BAC89DDB /* Support Files */,
 				D139656138B0855D9C1E3DC843554E64 /* ViewController */,
@@ -247,12 +247,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		632DB76588D6BD623E173AFB5B9B14DF /* Headers */ = {
+		677C71C29F23A45EA379E25EA379A123 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3EDF6FCC40C90715D57CB6F991AA52D /* DockingHeader.h in Headers */,
-				2668DB097EBEF99707A28183D52558D3 /* HomeViewController.h in Headers */,
+				26D91E5A3744D017C8A486C935848D03 /* UserDockingHeader.h in Headers */,
+				2DDFD61364C9CDD6CFD799DA302FC3BB /* UserViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		779CE7F9F5064F733158916F49955785 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8212FF2ED470A56B3CE96C0FB957128F /* HomeDockingHeader.h in Headers */,
+				95EB812AD20BA9F46491F2801264E450 /* HomeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,15 +272,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D033A9D710A65E6628F28B34B51E6521 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46BAAB91925A2E23699DCF5330B06C0D /* DockingHeader.h in Headers */,
-				1EEFA9348BF02C8BAE63754A11EC43FD /* UserViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -279,7 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAAF035DDA5300708FE171AFB7BEACC8 /* Build configuration list for PBXNativeTarget "UserProject" */;
 			buildPhases = (
-				D033A9D710A65E6628F28B34B51E6521 /* Headers */,
+				677C71C29F23A45EA379E25EA379A123 /* Headers */,
 				C371C9EDECD4A7377BB6CF3B4EBBE66A /* Sources */,
 				003EA439DC3A814F007B2F04DA64A599 /* Frameworks */,
 			);
@@ -296,7 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8A7116995A90905E445170B313DDA7F /* Build configuration list for PBXNativeTarget "HomeProject" */;
 			buildPhases = (
-				632DB76588D6BD623E173AFB5B9B14DF /* Headers */,
+				779CE7F9F5064F733158916F49955785 /* Headers */,
 				FD334E6A88FC9E9AE8EC36D85AA1EDB6 /* Sources */,
 				D52D382CC76321267581520E40F8172F /* Frameworks */,
 			);

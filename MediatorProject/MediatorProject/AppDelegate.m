@@ -1,15 +1,12 @@
 //
 //  AppDelegate.m
-//  LocalKu
+//  MediatorProject
 //
 //  Created by Siri on 2019/3/17.
 //  Copyright © 2019年 Siri. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "WXRootNavigationController.h"
-#import "WXTabBarControllerConfig.h"
-//#import "TotalModuleManage.h"
 
 @interface AppDelegate ()
 
@@ -20,11 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    WXTabBarControllerConfig *tabBarControllerConfig = [[WXTabBarControllerConfig alloc]init];
-    //        self.tabBarControllerConfig = tabBarControllerConfig;
-    self.window.rootViewController = tabBarControllerConfig.tabBarController;
-    [self.window makeKeyAndVisible];
     return YES;
 }
 
