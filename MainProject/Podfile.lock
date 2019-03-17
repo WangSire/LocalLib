@@ -1,0 +1,16 @@
+PODS:
+  - LTFramework (0.1.0)
+
+DEPENDENCIES:
+  - LTFramework (from `../LTFramework`)
+
+EXTERNAL SOURCES:
+  LTFramework:
+    :path: "../LTFramework"
+
+SPEC CHECKSUMS:
+  LTFramework: 6e05cc604c3d938d45fa0e71c55a5b606b37f01c
+
+PODFILE CHECKSUM: a6892f07e7fabc0f3a6cd2ac325aff1e3c787262
+
+COCOAPODS: 1.6.1
