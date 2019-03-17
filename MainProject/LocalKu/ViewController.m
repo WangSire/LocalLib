@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <MainViewController.h>
+#import <MainModel.h>
 @interface ViewController ()
 
 @end
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = [UIColor redColor];
+    [[MainModel new] initWithName:@"成功"];
 
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
