@@ -116,8 +116,8 @@ Pod::Spec.new do |spec|
   #
 
 # spec.framework  = "MediatorModel.framework"
-   spec.frameworks = "MediatorModel"
-   spec.vendored_frameworks = 'MediatorModel.framework'
+#   spec.frameworks = "MediatorModel"
+#   spec.vendored_frameworks = 'MediatorModel.framework'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

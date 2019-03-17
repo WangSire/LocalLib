@@ -23,13 +23,14 @@
 		1EB8D28E7D927F960236E4DB7297FC50 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B56C801C15068EE3A92FBD22F47EBE5 /* MJExtension-dummy.m */; };
 		22B6FCA11D82D4DDC57B98AB982DB108 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1C6AD28129314E72FF3902D82FC3DA /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		22C28B35944AA8E0FEF7199EB8189DAF /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 710929AD8F156270851A42A698DE836F /* SDWebImage-dummy.m */; };
+		2359007CD4E127E08D6289ABBEBD138A /* MBMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFB0AC4430FF5CDDF8224BA375DE43A /* MBMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		244D4C7C591D88D04E5C6A5E4D7B6B84 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 446D13CCEB6E79A328E26FEC4174C836 /* MJFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		24F67F67B66D71384E9B66CF81AF84B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A171F277FDA5E5639351F4E1DDE1F23 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		263A4B97484309B2B701E703DA396835 /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3012EDA47F5DCABD43A2EF4036CCC5 /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		267FC686931D0644E02B071A7AD377D2 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D3B64DAB37D33C0C6A9201976EF2D /* UIButton+WebCache.m */; };
 		272ABFB28276AC57136958A8C71DB565 /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF406A5777D1852AB62C06D8D915E65 /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2732F7E9AC7AB575226645AF9578D61F /* MediatorProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE162A7C53BC721D6C6086F735C8F0E /* MediatorProject-dummy.m */; };
 		29214D8D2E69809E66F0C8A98A36BCCE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F811B454D9960A9FAA5371097D95A799 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2974245B5EEEB0F7F21AA9703C5AD381 /* MBMediator+Home.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF0304699B1FD67033AA1EC40577D5D /* MBMediator+Home.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2A7323C7DF72306457848BF2B331D5C2 /* UITableView+FDTemplateLayoutCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2155F4DBEA61A6768AB56CA22CEF0B83 /* UITableView+FDTemplateLayoutCell-dummy.m */; };
 		2D39CCECA9DCC0F14571407844305339 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D51D4DA8C80AF975C6F7F8396FE82 /* UIScrollView+EmptyDataSet.m */; };
 		2E0EB9530E7581D8EC443C57CBA8FD29 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EE902E8A297E68F5726106EABD2405 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -44,7 +45,7 @@
 		462CDB1523DB31CD85507D0325A7EDC2 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = E898F63BE5F794607B04D180B234007B /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		466BC2560A2B9FDB0B06F8A28F02D9AE /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A5DAE7512061FE92946DBAA20B7A37 /* SDWebImageTransition.m */; };
 		48ED6D29CEC0890975B4EAA96583E8D7 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 485D13E96EEEBB5A355671766EECE6FE /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4AB859BFE3278F6BC22C368C8BEC1DF7 /* MBMediator+User.h in Headers */ = {isa = PBXBuildFile; fileRef = CF59304DA3F058767484FE8581D23DC8 /* MBMediator+User.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B5F2017F288EFD7DFE3B01836D66AC2 /* MBMediator+User.m in Sources */ = {isa = PBXBuildFile; fileRef = F70011C1E2ED7EF02F2DF7DDCC25B459 /* MBMediator+User.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4DAD888573E77EFF268CA882E9BB6EA4 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA2E7C6A2AF5BE616222BB24C001D9D /* NSObject+MJKeyValue.m */; };
 		4F84549CFED524F718EEF85E660C7459 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BF975F19C741A00F1CE20B97375E28 /* NSObject+MJProperty.m */; };
 		4FB109698300FEE7BA718B375F0CF6B4 /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED4435E947B8B823B94775EEE1BEA0C /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -63,7 +64,6 @@
 		5D962202778B7E20F670685B8E328414 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F45ED9C84178C8DD6EA8E93DA9A6E2 /* UIImage+ForceDecode.m */; };
 		5E44F7CFDA34CB0B1F1A65A19641AC7D /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DFA478E1F05B2B4C4E1EC87CA3EC3F /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		60DC27F14226DDD592FA1464C2DA0C2E /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526523535C428D69C4A1315052F4767 /* MASConstraintMaker.m */; };
-		618B3F8DA272A93829BB3EE1DE95A3BC /* MBMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 9195B7524A6BC0911C0F108A9B40CA79 /* MBMediator+Home.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6231B6FA557B4662A238C4CDB6D5117D /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F176F2D648FD74C289C92EC1B96D11C /* NSImage+WebCache.m */; };
 		62ED0D1B1D2D5EF2225776A9C2BAF4DA /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBB7C65189C1F74A07B0CB85DA88AED /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		64E3036BDFB32C2E78D3CB8ED0BFF595 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 68631D353BA290078832CCE77061B0D0 /* UITableView+FDIndexPathHeightCache.m */; };
@@ -79,20 +79,22 @@
 		93FF887D749DB4546F554DCF89BC38BE /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7AE7EA69BB5750FA5DA9B6B1011B16 /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		94023DA02DB6DDC1525673B1B64650FE /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F57BA0FCEE10D88DAC55DC1327CAAA8 /* UIView+WebCacheOperation.m */; };
 		9528A6EF8A0CA4382DB84DE377BFDC6F /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0C99A8810C447408BA9C44D121CB81 /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		953DBF7F772856B0934B2C1DDA956D34 /* MBMediator+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 02671024B21E580563358CEF4027B2F8 /* MBMediator+User.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		95C287A32DB8C0778DBFB034CAEB408F /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E22DE9ECE62EB87342BB6D2E7165C82C /* UIImage+MultiFormat.m */; };
 		96DB2AB39DFEB82319EF630730FDE4FD /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D10A343C570B78344EC04750D7B9DFB /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		988557D296FD8913958556960EED4C2E /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74E43741A93BD475F0E6E72B8388A1 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		996FE3BE58290B539B4816D68633C700 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EF8DD744E85F5D12A1C8015E9DCA5C /* SDWebImageCompat.m */; };
 		9CEC15B9242732EFBA72787C6586AFB4 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BE622D816BF495FC9D5D2BF8CAD495 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9ECC47C52DAED2B0F092D7C75A2E19D4 /* MBMediator+Home.h in Headers */ = {isa = PBXBuildFile; fileRef = 998E381E058EB432B9279BC6D457B248 /* MBMediator+Home.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9F7245F368B8CD09FE3F2C36BAA2842D /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C0E514595C1589AA9B88F13393E68 /* MASViewAttribute.m */; };
 		A7DBB7EC73AEE350A99E21F620EB5F1F /* Pods-HomeProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE74F5A8A9F7A47DFF302A5EB49C9B /* Pods-HomeProject-dummy.m */; };
+		A85F4EED2E94172404B0CBACCB697303 /* MBMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 254D571A8912F5B7830D085B124C2C90 /* MBMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8963E6BA356E71FD1A26AD68C5A0A6E /* UITableView+FDKeyedHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8086D5A8918C0F1244CEA7E95491377A /* UITableView+FDKeyedHeightCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A9057DFF467ACA1A16500C6C3F954821 /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D395F3052BB4D877FC177088C829F431 /* NSButton+WebCache.m */; };
 		A99286DA8EC9573F2836B3E3F8F93EBE /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F368A722E7099465E6C6C8D46A6F49 /* MJPropertyType.m */; };
 		AB74AF1EEF7E9D9855E150F344F8CBD5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE26287FD854F02FE5EFE67ACC6FF66 /* MASLayoutConstraint.m */; };
 		AD63F844543CD2CAE943E92B4A2CFAD0 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AB78782F9654378E5C1889DCA1F777 /* MJFoundation.m */; };
 		AE34CA86D66F17739B2DE3F7B7BA61E6 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2097BE3B290E249D0C86089F0A6EFBCC /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B22FF9F5525E9A0EE6D20E395997D0FE /* MBMediator+User.h in Headers */ = {isa = PBXBuildFile; fileRef = E9786A42C6C2CBB99CFF294830406094 /* MBMediator+User.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B30D5739FE3D8B859DF7EFEFE059EA4B /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2196001EE436135952C057AFE92FEDB6 /* SDWebImageDownloader.m */; };
 		B337B2A6B73AC1DB1CB4A29D48ECC3EC /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE2C69E83283E3473C0BB44BD3724A7 /* UIImage+GIF.m */; };
 		B5F8B45888F4DFECC89DBA2B0307C178 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B583E4C9234A40E69624EEC68421732 /* MASConstraint.m */; };
@@ -119,6 +121,7 @@
 		DE9F9FC0EC0266182FD1DD7F6AC5AAC1 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF41CA1C5AECA8BE1A4E9A8B2956FC4 /* SDImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E2A06742F01B43B904C79B0187F2A7FD /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8EB2C524BD2378514AAF625A5E7F1E /* MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E76C786B62B3A371A4C6B8D04756FA6B /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = EAAC3A4ABFE1310FE868280ACBDB0861 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9273C7E9C3DB6736A7E9538A08C5BE5 /* MBMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FB3F4FABB37660EB2C0FC15473D289 /* MBMediator+Home.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E94F68ABEAC53DD4556594E0EE4EAD57 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 043AA63582F10A1509C310C98B662E1E /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EAED263ADDF8EBE21F1EE02F9FB8FD7E /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A24E5AC5E4C364F4B5AAB101F5898EF /* View+MASAdditions.m */; };
 		EB2827D94217C3BF15F52A48ACAE8ECA /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 081DEEF1AD7D0CBC69A6ABCDB7109E26 /* SDWebImageCoder.m */; };
@@ -128,7 +131,6 @@
 		F2997400B1BB21CD752A25E38F8695E3 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA471A50BE6B9FA06FA9FE533F1B92F /* SDImageCache.m */; };
 		F40D1A89D168965AC771C14CB39EC9E6 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E6C8A504AFAFBD0ABF2DA13433136D /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4306188C9FC14FDD13E9C42DB56C138 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D1DDD19E68A81CF16AC06CD627E298 /* MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F5FF6CDA44EDEE466C30EB8BFF221984 /* MediatorProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C52429977E6DDC004BDB6EB5F78D9350 /* MediatorProject-dummy.m */; };
 		F633839D0974484284133E0ADC08C76F /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = DECD981ADA1C9BF7DF4D9FE3A359960C /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FAED9DB55D32DF51ECCB5AF84FF2753B /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E26B90D4E7DFF8E4BB97EDA52F45B5 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FAF1D45492EAC6D794CE093094D670A3 /* UITableView+FDTemplateLayoutCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F83A50B9050924815B2CD57C192F9D0 /* UITableView+FDTemplateLayoutCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -176,7 +178,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AC3E2832B00BF101FFB1D353458BACEB;
+			remoteGlobalIDString = 80F7EB4FD98D423C7210B5AA211BA4B7;
 			remoteInfo = MediatorProject;
 		};
 		E7DE4ABE051C779D60F14740D2F934E8 /* PBXContainerItemProxy */ = {
@@ -190,11 +192,11 @@
 
 /* Begin PBXFileReference section */
 		002E00A623D846DB5E1830DFDFE39712 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
-		02671024B21E580563358CEF4027B2F8 /* MBMediator+User.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBMediator+User.m"; path = "MediatorProject/ChildModule/MBMediator+User.m"; sourceTree = "<group>"; };
 		0404FC48697D1C007E91A17C4F9B2991 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
 		043AA63582F10A1509C310C98B662E1E /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		058DAC1D71E2451C90DFB0D0D4BA2CDA /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		07591BA96CE81793B7946207AA6E26DD /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		07EBF77F378DFE0146CA7846D0C0B89C /* MediatorProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediatorProject-prefix.pch"; sourceTree = "<group>"; };
 		081DEEF1AD7D0CBC69A6ABCDB7109E26 /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
 		0A1C0E514595C1589AA9B88F13393E68 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		0A2D51D4DA8C80AF975C6F7F8396FE82 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
@@ -206,12 +208,13 @@
 		1526523535C428D69C4A1315052F4767 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		184FE7EE4F3E2E6A23DDEFDE51E955D9 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
 		18F45ED9C84178C8DD6EA8E93DA9A6E2 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
-		1977C15DB262A127658C07DDA76BF446 /* MediatorProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediatorProject-prefix.pch"; sourceTree = "<group>"; };
 		1B583E4C9234A40E69624EEC68421732 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		2097BE3B290E249D0C86089F0A6EFBCC /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		20C0D6907987C18AE2B22BCB089DD19A /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2155F4DBEA61A6768AB56CA22CEF0B83 /* UITableView+FDTemplateLayoutCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell-dummy.m"; sourceTree = "<group>"; };
 		2196001EE436135952C057AFE92FEDB6 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		21C5675B80EBD02E1B1FC4151F922A36 /* MediatorProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediatorProject.xcconfig; sourceTree = "<group>"; };
+		254D571A8912F5B7830D085B124C2C90 /* MBMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBMediator.h; path = MediatorProject/ChildModule/MBMediator.h; sourceTree = "<group>"; };
 		261633FC832BDA59AAA6A25E10FA4036 /* UITableView+FDTemplateLayoutCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITableView+FDTemplateLayoutCell.xcconfig"; sourceTree = "<group>"; };
 		268B4315F6FE2136C7E46A566888C487 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		28BE59CC0F9A7150AB51AC706B4783B3 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -242,6 +245,7 @@
 		5BB50DC447A90B2F861358AADAC8E8BE /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		5D10A343C570B78344EC04750D7B9DFB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		5F8EB2C524BD2378514AAF625A5E7F1E /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		5FFB0AC4430FF5CDDF8224BA375DE43A /* MBMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBMediator.m; path = MediatorProject/ChildModule/MBMediator.m; sourceTree = "<group>"; };
 		637C973C0D7C8869EC35810E43CDD831 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
 		638377C06C8E9C211733F504A23B78CA /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
 		642F82358A6C57496BE1CEECDCC8FAFB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
@@ -259,7 +263,6 @@
 		7CDF1260E4BA05CCEA0286F546C8AE6E /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
 		7CF41CA1C5AECA8BE1A4E9A8B2956FC4 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
 		7D039A30A34BAC087F29D941063C09F3 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		7DF0304699B1FD67033AA1EC40577D5D /* MBMediator+Home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBMediator+Home.h"; path = "MediatorProject/ChildModule/MBMediator+Home.h"; sourceTree = "<group>"; };
 		7F57BA0FCEE10D88DAC55DC1327CAAA8 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		7F7F3944B02D91AC5470C8261131EB00 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		8086D5A8918C0F1244CEA7E95491377A /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDKeyedHeightCache.h"; path = "Classes/UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
@@ -269,15 +272,14 @@
 		86E26B90D4E7DFF8E4BB97EDA52F45B5 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
 		8904089B0A2C1A9DAE8E507B50A14D09 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		8AC7ECE4A54C54E403B81B21A98ACD42 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
-		8B5D103B0A7539968B86FAAF79557EE6 /* MediatorProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediatorProject.xcconfig; sourceTree = "<group>"; };
 		8C2EBD9608BC4D9E6A6D6F8D75E0B9D8 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		8F176F2D648FD74C289C92EC1B96D11C /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
 		8F4037F8373E0CFD929DF8AF3BB27C4E /* libPods-HomeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HomeProject.a"; path = "libPods-HomeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F7D009A36F2B06D3C9D7E54493B5935 /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
-		9195B7524A6BC0911C0F108A9B40CA79 /* MBMediator+Home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBMediator+Home.m"; path = "MediatorProject/ChildModule/MBMediator+Home.m"; sourceTree = "<group>"; };
 		94BEA3E1B5666136783A954A6AFA77D1 /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
 		950080A3B67E49E901B00F882BBD5BED /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		9935BEEBC492CD56E450A6A3751DBBFA /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		998E381E058EB432B9279BC6D457B248 /* MBMediator+Home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBMediator+Home.h"; path = "MediatorProject/ChildModule/MBMediator+Home.h"; sourceTree = "<group>"; };
 		9A24E5AC5E4C364F4B5AAB101F5898EF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		9D9193BDABB70647CEC5A464089E9F04 /* libDZNEmptyDataSet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDZNEmptyDataSet.a; path = libDZNEmptyDataSet.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -285,6 +287,7 @@
 		9F9E40909CC46A677792AB95AF1ADC84 /* Pods-HomeProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HomeProject-acknowledgements.plist"; sourceTree = "<group>"; };
 		A62867CEBB0AD07DF11B35E353D3D9DF /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9686ED4CA2303F486A9EE9B806CD039 /* libSAMKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSAMKeychain.a; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE162A7C53BC721D6C6086F735C8F0E /* MediatorProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MediatorProject-dummy.m"; sourceTree = "<group>"; };
 		B14B7BF3E2D28DA43940C9DEC56C7636 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		B15ECBDC2D17D6F44A13831FC263A01C /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+FDTemplateLayoutCellDebug.m"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 		B1BE622D816BF495FC9D5D2BF8CAD495 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -304,18 +307,17 @@
 		C2826DF43F0823CFE94DEC55E6780BCC /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		C2C33A20C4AB7549A136B0BC4E60A01E /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		C2DC59742752D22377E456FCE02DAF49 /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
-		C52429977E6DDC004BDB6EB5F78D9350 /* MediatorProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MediatorProject-dummy.m"; sourceTree = "<group>"; };
 		C6B5FD673EBBDCACAB7E85CA808F6F71 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+FDTemplateLayoutCellDebug.h"; path = "Classes/UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		C6FB3F4FABB37660EB2C0FC15473D289 /* MBMediator+Home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBMediator+Home.m"; path = "MediatorProject/ChildModule/MBMediator+Home.m"; sourceTree = "<group>"; };
 		C7570891823AC3971795741D50FF0C4C /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
 		C75F95FBD970BC2DBF43287651A45F87 /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77B930BB1E1AEDC04D5983ED18348AF /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		C9868810EECB129FED4222E906EB7499 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		CA1E3A46D8AEC876EF0BBD9105DA99F8 /* MediatorProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MediatorProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE106CBAFF33B3225D3B5C2DC27D5B41 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
-		CF59304DA3F058767484FE8581D23DC8 /* MBMediator+User.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBMediator+User.h"; path = "MediatorProject/ChildModule/MBMediator+User.h"; sourceTree = "<group>"; };
 		D1E6C8A504AFAFBD0ABF2DA13433136D /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		D35B9CDEAEDB0E2A399573DCD486DC06 /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
 		D395F3052BB4D877FC177088C829F431 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
+		D3F332856E6CB123B34056D99CAA0E2A /* MediatorProject.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MediatorProject.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D469E1B1DC83604FE4020EB93E9B7FC0 /* Pods-HomeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HomeProject.release.xcconfig"; sourceTree = "<group>"; };
 		D4F368A722E7099465E6C6C8D46A6F49 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
 		D60CB1689364103A1E0733D2DFA694D4 /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 		E329AA4CC5FC69C7F3D163BC97C46507 /* libUITableView+FDTemplateLayoutCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUITableView+FDTemplateLayoutCell.a"; path = "libUITableView+FDTemplateLayoutCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EF8DD744E85F5D12A1C8015E9DCA5C /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		E898F63BE5F794607B04D180B234007B /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		E9786A42C6C2CBB99CFF294830406094 /* MBMediator+User.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBMediator+User.h"; path = "MediatorProject/ChildModule/MBMediator+User.h"; sourceTree = "<group>"; };
 		EAAC3A4ABFE1310FE868280ACBDB0861 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		EB33678F124F3468F5247653054446C6 /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
 		ED0834CEE4367BF0D1486C95317D764E /* libMediatorProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMediatorProject.a; path = libMediatorProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,6 +344,7 @@
 		F0256C509E383FC0DBE78AC99799C90F /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		F13C6E061BBEB87422CA4ECC1AE1715C /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		F2BC7661177B1D6C7DA5520E82597E0F /* UITableView+FDTemplateLayoutCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell-prefix.pch"; sourceTree = "<group>"; };
+		F70011C1E2ED7EF02F2DF7DDCC25B459 /* MBMediator+User.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBMediator+User.m"; path = "MediatorProject/ChildModule/MBMediator+User.m"; sourceTree = "<group>"; };
 		F7EE902E8A297E68F5726106EABD2405 /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
 		F811B454D9960A9FAA5371097D95A799 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		FB7AE7EA69BB5750FA5DA9B6B1011B16 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
@@ -349,6 +353,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01A5048307A9FF2144AB1EA66E82D216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E0E54D1C7716F8278D00C698F0C2295 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,13 +382,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3A7D7B79F63C0721213B7C477BA390E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B6C6BEAF567F8AD479BAE1720FEF7FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -414,17 +418,6 @@
 				184FE7EE4F3E2E6A23DDEFDE51E955D9 /* SAMKeychain.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		338E08BBDFE99FCBE8C91B583DB20A1C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B5D103B0A7539968B86FAAF79557EE6 /* MediatorProject.xcconfig */,
-				C52429977E6DDC004BDB6EB5F78D9350 /* MediatorProject-dummy.m */,
-				1977C15DB262A127658C07DDA76BF446 /* MediatorProject-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../HomeProject/Pods/Target Support Files/MediatorProject";
 			sourceTree = "<group>";
 		};
 		3F3F020DF21A752331D04E494D434BF3 /* Targets Support Files */ = {
@@ -482,6 +475,14 @@
 				E329AA4CC5FC69C7F3D163BC97C46507 /* libUITableView+FDTemplateLayoutCell.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6A62E7011461C74A48CF2868A15566D1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA2B2389D0FA9EF23648CE99CEF81CEC /* MediatorProject */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		72DF439D34F6A42C7A4CAE6820438301 /* Pods */ = {
@@ -599,6 +600,22 @@
 			path = "../Target Support Files/MJExtension";
 			sourceTree = "<group>";
 		};
+		BA2B2389D0FA9EF23648CE99CEF81CEC /* MediatorProject */ = {
+			isa = PBXGroup;
+			children = (
+				254D571A8912F5B7830D085B124C2C90 /* MBMediator.h */,
+				5FFB0AC4430FF5CDDF8224BA375DE43A /* MBMediator.m */,
+				998E381E058EB432B9279BC6D457B248 /* MBMediator+Home.h */,
+				C6FB3F4FABB37660EB2C0FC15473D289 /* MBMediator+Home.m */,
+				E9786A42C6C2CBB99CFF294830406094 /* MBMediator+User.h */,
+				F70011C1E2ED7EF02F2DF7DDCC25B459 /* MBMediator+User.m */,
+				C783C9B4F4714EC60F4B523C066F84A4 /* Pod */,
+				E552DB404FF979798B92EE236A22290D /* Support Files */,
+			);
+			name = MediatorProject;
+			path = ../../MediatorProject;
+			sourceTree = "<group>";
+		};
 		BEEE97438BF922596BEDA16FBFF08932 /* SAMKeychain */ = {
 			isa = PBXGroup;
 			children = (
@@ -624,12 +641,12 @@
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
-		CAAADEB4F94961C35A51542E921D993D /* Development Pods */ = {
+		C783C9B4F4714EC60F4B523C066F84A4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DF242DD8C78BD0F1F333C03B825C7786 /* MediatorProject */,
+				D3F332856E6CB123B34056D99CAA0E2A /* MediatorProject.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CC1C14E653B3E8C82D79F1A1D5593791 /* Pods-HomeProject */ = {
@@ -650,20 +667,12 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CAAADEB4F94961C35A51542E921D993D /* Development Pods */,
+				6A62E7011461C74A48CF2868A15566D1 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				72DF439D34F6A42C7A4CAE6820438301 /* Pods */,
 				642D8FE3ECC76428705942DBB8328A2D /* Products */,
 				3F3F020DF21A752331D04E494D434BF3 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D365F86849791681FD95A4E63194CB75 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CA1E3A46D8AEC876EF0BBD9105DA99F8 /* MediatorProject.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D4CD5999749D755FA8C5DA397F5AE730 /* SDWebImage */ = {
@@ -692,20 +701,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DZNEmptyDataSet";
-			sourceTree = "<group>";
-		};
-		DF242DD8C78BD0F1F333C03B825C7786 /* MediatorProject */ = {
-			isa = PBXGroup;
-			children = (
-				7DF0304699B1FD67033AA1EC40577D5D /* MBMediator+Home.h */,
-				9195B7524A6BC0911C0F108A9B40CA79 /* MBMediator+Home.m */,
-				CF59304DA3F058767484FE8581D23DC8 /* MBMediator+User.h */,
-				02671024B21E580563358CEF4027B2F8 /* MBMediator+User.m */,
-				D365F86849791681FD95A4E63194CB75 /* Pod */,
-				338E08BBDFE99FCBE8C91B583DB20A1C /* Support Files */,
-			);
-			name = MediatorProject;
-			path = ../../MediatorProject;
 			sourceTree = "<group>";
 		};
 		E3B46862177FB4DD701CDAB9267BAD1F /* Core */ = {
@@ -770,6 +765,17 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		E552DB404FF979798B92EE236A22290D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21C5675B80EBD02E1B1FC4151F922A36 /* MediatorProject.xcconfig */,
+				ADE162A7C53BC721D6C6086F735C8F0E /* MediatorProject-dummy.m */,
+				07EBF77F378DFE0146CA7846D0C0B89C /* MediatorProject-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../HomeProject/Pods/Target Support Files/MediatorProject";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -779,15 +785,6 @@
 			files = (
 				DCA539D0945C3C5EB9A8999854CD40CB /* SAMKeychain.h in Headers */,
 				BB2D9BD5AA1ADBFA48E5DE1D395FC57E /* SAMKeychainQuery.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4957F8440FFA19F0A93ACDEA56704633 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2974245B5EEEB0F7F21AA9703C5AD381 /* MBMediator+Home.h in Headers */,
-				4AB859BFE3278F6BC22C368C8BEC1DF7 /* MBMediator+User.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -892,6 +889,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDDCE886C99BCEDE4CEC79A49E6226E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECC47C52DAED2B0F092D7C75A2E19D4 /* MBMediator+Home.h in Headers */,
+				B22FF9F5525E9A0EE6D20E395997D0FE /* MBMediator+User.h in Headers */,
+				A85F4EED2E94172404B0CBACCB697303 /* MBMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -953,6 +960,23 @@
 			productReference = 8F4037F8373E0CFD929DF8AF3BB27C4E /* libPods-HomeProject.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		80F7EB4FD98D423C7210B5AA211BA4B7 /* MediatorProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFA8C449851847A50D2E9ADE32748AB /* Build configuration list for PBXNativeTarget "MediatorProject" */;
+			buildPhases = (
+				EDDCE886C99BCEDE4CEC79A49E6226E5 /* Headers */,
+				6077A9CE3B4566B9368EE67C704B82A0 /* Sources */,
+				01A5048307A9FF2144AB1EA66E82D216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediatorProject;
+			productName = MediatorProject;
+			productReference = ED0834CEE4367BF0D1486C95317D764E /* libMediatorProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		8D9650CDBA856F217C7BEF50A304E81F /* SDWebImage */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39992B55B1D7EF917115DD00443111CF /* Build configuration list for PBXNativeTarget "SDWebImage" */;
@@ -968,23 +992,6 @@
 			name = SDWebImage;
 			productName = SDWebImage;
 			productReference = 20C0D6907987C18AE2B22BCB089DD19A /* libSDWebImage.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		AC3E2832B00BF101FFB1D353458BACEB /* MediatorProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C50556404F1A805662C81CBACC8F5491 /* Build configuration list for PBXNativeTarget "MediatorProject" */;
-			buildPhases = (
-				4957F8440FFA19F0A93ACDEA56704633 /* Headers */,
-				7FFEB2565C52AEB62981D15B922E08DC /* Sources */,
-				4B6C6BEAF567F8AD479BAE1720FEF7FC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MediatorProject;
-			productName = MediatorProject;
-			productReference = ED0834CEE4367BF0D1486C95317D764E /* libMediatorProject.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */ = {
@@ -1061,7 +1068,7 @@
 			targets = (
 				C4B49E9F4FE39659F2DD72DE423E93D4 /* DZNEmptyDataSet */,
 				B854683690DC218F2B6E2FFDB0D27CDC /* Masonry */,
-				AC3E2832B00BF101FFB1D353458BACEB /* MediatorProject */,
+				80F7EB4FD98D423C7210B5AA211BA4B7 /* MediatorProject */,
 				CC39AAE571A91ED7E3526D726237352E /* MJExtension */,
 				5837299F0A08F0C4A6FE5BC51761495E /* Pods-HomeProject */,
 				03FA8B72C5800E7B9A0B3DD8A23FC3B2 /* SAMKeychain */,
@@ -1129,6 +1136,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6077A9CE3B4566B9368EE67C704B82A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9273C7E9C3DB6736A7E9538A08C5BE5 /* MBMediator+Home.m in Sources */,
+				4B5F2017F288EFD7DFE3B01836D66AC2 /* MBMediator+User.m in Sources */,
+				2359007CD4E127E08D6289ABBEBD138A /* MBMediator.m in Sources */,
+				2732F7E9AC7AB575226645AF9578D61F /* MediatorProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		732AE1575FB715769A54B8C208FB8697 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1136,16 +1154,6 @@
 				B9566451239E8664B60E05EFCD44A2DA /* SAMKeychain-dummy.m in Sources */,
 				7928B01897987E78E9BAA0FE135F0AA1 /* SAMKeychain.m in Sources */,
 				988557D296FD8913958556960EED4C2E /* SAMKeychainQuery.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7FFEB2565C52AEB62981D15B922E08DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				618B3F8DA272A93829BB3EE1DE95A3BC /* MBMediator+Home.m in Sources */,
-				953DBF7F772856B0934B2C1DDA956D34 /* MBMediator+User.m in Sources */,
-				F5FF6CDA44EDEE466C30EB8BFF221984 /* MediatorProject-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1222,7 +1230,7 @@
 		8C6BE53EEF6E5F67A9D4F95701CA8C6F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MediatorProject;
-			target = AC3E2832B00BF101FFB1D353458BACEB /* MediatorProject */;
+			target = 80F7EB4FD98D423C7210B5AA211BA4B7 /* MediatorProject */;
 			targetProxy = AB2B865D197D395354BF0387DFF3E6C7 /* PBXContainerItemProxy */;
 		};
 		E3EE40D0B666CA6B9095BE2DF6D04187 /* PBXTargetDependency */ = {
@@ -1321,31 +1329,6 @@
 			};
 			name = Debug;
 		};
-		22E3D99503D6875CA68BD6DAE1F222D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B5D103B0A7539968B86FAAF79557EE6 /* MediatorProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MediatorProject/MediatorProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MediatorProject;
-				PRODUCT_NAME = MediatorProject;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		265366333B6DEBFD3C165217154EE13B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12730F146E77B7A9720252C807F947BE /* SDWebImage.xcconfig */;
@@ -1384,30 +1367,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = SAMKeychain;
 				PRODUCT_NAME = SAMKeychain;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2EBE990FE5E315A243F996CC0D5519DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B5D103B0A7539968B86FAAF79557EE6 /* MediatorProject.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MediatorProject/MediatorProject-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MediatorProject;
-				PRODUCT_NAME = MediatorProject;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1668,6 +1627,30 @@
 			};
 			name = Release;
 		};
+		ABFF1076ECD62B863A25129E6298FE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C5675B80EBD02E1B1FC4151F922A36 /* MediatorProject.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MediatorProject/MediatorProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MediatorProject;
+				PRODUCT_NAME = MediatorProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		C98B1C35E43E2451B794270C57D2542A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 439F2CCB0D22E2A7DC8DD508F02ADD99 /* SAMKeychain.xcconfig */;
@@ -1714,6 +1697,31 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		E68394CDC8AB94F0AA36750F03FFD8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C5675B80EBD02E1B1FC4151F922A36 /* MediatorProject.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MediatorProject/MediatorProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MediatorProject;
+				PRODUCT_NAME = MediatorProject;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		F96985CDBA419ED486E0F7E1E8A9EFC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1795,11 +1803,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C50556404F1A805662C81CBACC8F5491 /* Build configuration list for PBXNativeTarget "MediatorProject" */ = {
+		ABFA8C449851847A50D2E9ADE32748AB /* Build configuration list for PBXNativeTarget "MediatorProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2EBE990FE5E315A243F996CC0D5519DA /* Debug */,
-				22E3D99503D6875CA68BD6DAE1F222D8 /* Release */,
+				ABFF1076ECD62B863A25129E6298FE59 /* Debug */,
+				E68394CDC8AB94F0AA36750F03FFD8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
