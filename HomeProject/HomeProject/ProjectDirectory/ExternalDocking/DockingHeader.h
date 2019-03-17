@@ -8,7 +8,7 @@
 
 #ifndef DockingHeader_h
 #define DockingHeader_h
-#import "ViewController.h"
+#import "HomeViewController.h"
 
 
 #endif /* DockingHeader_h */
