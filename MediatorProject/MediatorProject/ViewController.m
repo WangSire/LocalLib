@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <MediatorModel/MediatorModel.h>
 @interface ViewController ()
 
 @end

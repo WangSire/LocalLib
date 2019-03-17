@@ -6,8 +6,7 @@
 //  Copyright © 2019年 Siri. All rights reserved.
 //
 
-#import <MediatorModel/MediatorModel.h>
-
+#import "MBMediator.h"
 @interface MBMediator (User)
 -(NSString *)User_backUserWithName:(NSDictionary *)parmas;
 //Block回调

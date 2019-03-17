@@ -6,7 +6,7 @@
 //  Copyright © 2019年 Siri. All rights reserved.
 //
 
-#import <MediatorModel/MediatorModel.h>
+#import "MBMediator.h"
 @interface MBMediator (Home)
 -(void)Home_loadHomeName:(NSDictionary *)parmas;
 -(UIViewController *)backHomeView:(NSDictionary *)parmas;

@@ -13,9 +13,9 @@
 		532035B7223E67B10074DE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532035B6223E67B10074DE1D /* Assets.xcassets */; };
 		532035BA223E67B10074DE1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532035B8223E67B10074DE1D /* LaunchScreen.storyboard */; };
 		532035BD223E67B10074DE1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532035BC223E67B10074DE1D /* main.m */; };
-		532035C4223E67E90074DE1D /* MediatorModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532035C3223E67E90074DE1D /* MediatorModel.framework */; };
 		532035C8223E69700074DE1D /* MBMediator+Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 532035C7223E69700074DE1D /* MBMediator+Home.m */; };
 		532035CB223E697A0074DE1D /* MBMediator+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 532035CA223E697A0074DE1D /* MBMediator+User.m */; };
+		532035FE223E79D80074DE1D /* MBMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 532035FD223E79D80074DE1D /* MBMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,12 @@
 		532035B9223E67B10074DE1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		532035BB223E67B10074DE1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		532035BC223E67B10074DE1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		532035C3223E67E90074DE1D /* MediatorModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediatorModel.framework; sourceTree = "<group>"; };
 		532035C6223E69700074DE1D /* MBMediator+Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBMediator+Home.h"; sourceTree = "<group>"; };
 		532035C7223E69700074DE1D /* MBMediator+Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBMediator+Home.m"; sourceTree = "<group>"; };
 		532035C9223E697A0074DE1D /* MBMediator+User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBMediator+User.h"; sourceTree = "<group>"; };
 		532035CA223E697A0074DE1D /* MBMediator+User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBMediator+User.m"; sourceTree = "<group>"; };
+		532035FC223E79D70074DE1D /* MBMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMediator.h; sourceTree = "<group>"; };
+		532035FD223E79D80074DE1D /* MBMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				532035C4223E67E90074DE1D /* MediatorModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,6 @@
 				532035AE223E67B00074DE1D /* AppDelegate.m */,
 				532035B0223E67B00074DE1D /* ViewController.h */,
 				532035B1223E67B00074DE1D /* ViewController.m */,
-				532035C3223E67E90074DE1D /* MediatorModel.framework */,
 				532035B3223E67B00074DE1D /* Main.storyboard */,
 				532035B6223E67B10074DE1D /* Assets.xcassets */,
 				532035B8223E67B10074DE1D /* LaunchScreen.storyboard */,
@@ -89,6 +88,8 @@
 				532035C7223E69700074DE1D /* MBMediator+Home.m */,
 				532035C9223E697A0074DE1D /* MBMediator+User.h */,
 				532035CA223E697A0074DE1D /* MBMediator+User.m */,
+				532035FC223E79D70074DE1D /* MBMediator.h */,
+				532035FD223E79D80074DE1D /* MBMediator.m */,
 			);
 			path = ChildModule;
 			sourceTree = "<group>";
@@ -166,6 +167,7 @@
 				532035C8223E69700074DE1D /* MBMediator+Home.m in Sources */,
 				532035B2223E67B00074DE1D /* ViewController.m in Sources */,
 				532035BD223E67B10074DE1D /* main.m in Sources */,
+				532035FE223E79D80074DE1D /* MBMediator.m in Sources */,
 				532035AF223E67B00074DE1D /* AppDelegate.m in Sources */,
 				532035CB223E697A0074DE1D /* MBMediator+User.m in Sources */,
 			);

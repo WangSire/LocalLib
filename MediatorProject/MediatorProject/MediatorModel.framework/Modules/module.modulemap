@@ -1,6 +1,0 @@
-framework module MediatorModel {
-  umbrella header "MediatorModel.h"
-
-  export *
-  module * { export * }
-}
