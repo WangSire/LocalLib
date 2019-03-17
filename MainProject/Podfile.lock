@@ -1,16 +1,16 @@
 PODS:
-  - LTFramework (0.1.0)
+  - ChildProject (0.0.1)
 
 DEPENDENCIES:
-  - LTFramework (from `../LTFramework`)
+  - ChildProject (from `../ChildProject`)
 
 EXTERNAL SOURCES:
-  LTFramework:
-    :path: "../LTFramework"
+  ChildProject:
+    :path: "../ChildProject"
 
 SPEC CHECKSUMS:
-  LTFramework: 6e05cc604c3d938d45fa0e71c55a5b606b37f01c
+  ChildProject: ba5975ac5ecdae963a1ae7ffc040b2314ba2a5dd
 
-PODFILE CHECKSUM: a6892f07e7fabc0f3a6cd2ac325aff1e3c787262
+PODFILE CHECKSUM: e248a3b0c0b66ed4c8b6e5a9d0c6edac0f25c25e
 
 COCOAPODS: 1.6.1

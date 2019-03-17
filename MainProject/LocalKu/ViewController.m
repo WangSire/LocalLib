@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <WXToolProjeceModel.h>
+#import <MainViewController.h>
 @interface ViewController ()
 
 @end
@@ -17,9 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [[WXToolProjeceModel new] TestLog];
-    
-    
+    self.view.backgroundColor = [UIColor redColor];
+
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self presentViewController:[MainViewController new] animated:YES completion:nil];
 }
 
 

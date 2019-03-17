@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF6735D99B0744DDEAB203C3A3C135B1"
-               BuildableName = "libLTFramework.a"
-               BlueprintName = "LTFramework"
+               BlueprintIdentifier = "D237ED4AF5ADAFCB179E26A7C7C8CEC4"
+               BuildableName = "libChildProject.a"
+               BlueprintName = "ChildProject"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
