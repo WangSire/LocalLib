@@ -19,7 +19,6 @@
 
 -(UIViewController *)Action_honeView:(NSDictionary *)parmas
 {
-    
     return [parmas[@"VCName"] isEqualToString:@"Home"]?[HomeViewController new]:[DetailsViewController new];
 }
 @end
