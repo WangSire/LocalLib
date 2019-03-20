@@ -195,12 +195,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MainProject/Pods-MainProject-resources.sh",
+				"${PODS_ROOT}/../../HomeProject/HomeProject/ProjectDirectory/LocalResources/bankName.png",
 				"${PODS_ROOT}/../../UserProject/UserProject/ProjectDirectory/LocalResources/head.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bankName.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/head.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

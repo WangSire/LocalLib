@@ -17,6 +17,9 @@
   "dependencies": {
     "Masonry": [
       "~> 1.1.0"
+    ],
+    "MediatorProject": [
+
     ]
   },
   "platforms": {
