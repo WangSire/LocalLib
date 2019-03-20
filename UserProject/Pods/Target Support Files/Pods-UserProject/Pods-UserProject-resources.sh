@@ -98,9 +98,13 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../HomeProject/HomeProject/ProjectDirectory/LocalResources/bankName.png"
+  install_resource "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle"
+  install_resource "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../HomeProject/HomeProject/ProjectDirectory/LocalResources/bankName.png"
+  install_resource "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle"
+  install_resource "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

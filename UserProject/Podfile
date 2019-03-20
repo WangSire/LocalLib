@@ -3,4 +3,10 @@ target 'UserProject' do
 pod 'Masonry', '~> 1.1.0'
 pod 'MediatorProject', :path => '../MediatorProject'
 pod 'HomeProject', :path => '../HomeProject'
+
+pod 'mob_sharesdk'
+pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+pod 'mob_sharesdk/ShareSDKPlatforms/QQ'
+pod 'mob_sharesdk/ShareSDKUI'
+pod 'mob_sharesdk/ShareSDKExtension'
 end

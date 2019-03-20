@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <ShareSDK/ShareSDK.h>
 @interface AppDelegate ()
 
 @end
@@ -17,7 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self registerShareSDK];
     return YES;
+}
+
+- (void)registerShareSDK {
+    [ShareSDK registPlatforms:^(SSDKRegister *platformsRegister) {
+        //QQ
+        [platformsRegister setupQQWithAppId:@"1104703869" appkey:@"3xMPusD38uozG5I4"];
+        //微信
+        [platformsRegister setupWeChatWithAppId:@"wxacd4799a4e4a2ec6" appSecret:@"fff7a567890c9b8c5ef9cef72d930998"];
+    }];
 }
 
 
