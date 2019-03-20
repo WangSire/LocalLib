@@ -20,6 +20,21 @@
     ],
     "MediatorProject": [
 
+    ],
+    "mob_sharesdk": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/WeChat": [
+
+    ],
+    "mob_sharesdk/ShareSDKPlatforms/QQ": [
+
+    ],
+    "mob_sharesdk/ShareSDKUI": [
+
+    ],
+    "mob_sharesdk/ShareSDKExtension": [
+
     ]
   },
   "platforms": {

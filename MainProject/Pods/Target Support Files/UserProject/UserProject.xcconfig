@@ -1,7 +1,7 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/UserProject
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../MediatorProject/MediatorProject/TotalDirectory/LocalFramework"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../MediatorProject/MediatorProject/TotalDirectory/LocalFramework" "${PODS_ROOT}/MOBFoundation" "${PODS_ROOT}/mob_sharesdk/ShareSDK" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformConnector" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/PlatformSDK/QQSDK" "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/UserProject" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/MediatorProject" "${PODS_ROOT}/Headers/Public/UserProject"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/UserProject" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/MediatorProject" "${PODS_ROOT}/Headers/Public/UserProject" "${PODS_ROOT}/Headers/Public/mob_sharesdk"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

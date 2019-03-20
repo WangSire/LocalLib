@@ -62,8 +62,8 @@
         
         SSUIShareActionSheetStyle *sheet = [ShareSDK showShareActionSheet:nil items:@[@(SSDKPlatformSubTypeWechatSession),
                                                                                            @(SSDKPlatformSubTypeWechatTimeline),
-                                                                                           @(SSDKPlatformSubTypeQQFriend),@(SSDKPlatformSubTypeQZone),
-                                                                                           @(SSDKPlatformTypeSMS),@(SSDKPlatformTypeSinaWeibo),] shareParams:shareParams onShareStateChanged:^(SSDKResponseState state, SSDKPlatformType platformType, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error, BOOL end) {
+                                                                                           @(SSDKPlatformSubTypeQQFriend),@(SSDKPlatformSubTypeQZone)] shareParams:shareParams onShareStateChanged:^(SSDKResponseState state, SSDKPlatformType platformType, NSDictionary *userData, SSDKContentEntity *contentEntity, NSError *error, BOOL end) {
+                                                                                               NSLog(@"%@",error);
                                                                                                
                                                                                            }];
     }

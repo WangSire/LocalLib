@@ -4,10 +4,33 @@ PODS:
     - "UITableView+FDTemplateLayoutCell (~> 1.6)"
   - Masonry (1.1.0)
   - MediatorProject (0.0.1)
+  - mob_sharesdk (4.2.3):
+    - mob_sharesdk/ShareSDK (= 4.2.3)
+    - MOBFoundation
+  - mob_sharesdk/ShareSDK (4.2.3):
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKExtension (4.2.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/QQ (4.2.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKPlatforms/WeChat (4.2.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - mob_sharesdk/ShareSDKUI (4.2.3):
+    - mob_sharesdk/ShareSDK
+    - MOBFoundation
+  - MOBFoundation (3.2.2)
   - "UITableView+FDTemplateLayoutCell (1.6)"
   - UserProject (0.0.1):
     - Masonry (~> 1.1.0)
     - MediatorProject
+    - mob_sharesdk
+    - mob_sharesdk/ShareSDKExtension
+    - mob_sharesdk/ShareSDKPlatforms/QQ
+    - mob_sharesdk/ShareSDKPlatforms/WeChat
+    - mob_sharesdk/ShareSDKUI
 
 DEPENDENCIES:
   - HomeProject (from `../HomeProject`)
@@ -17,6 +40,8 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Masonry
+    - mob_sharesdk
+    - MOBFoundation
     - "UITableView+FDTemplateLayoutCell"
 
 EXTERNAL SOURCES:
@@ -31,8 +56,10 @@ SPEC CHECKSUMS:
   HomeProject: 331cc20951051d7275c62d25082390b0f91a7705
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MediatorProject: 8f004c5ed71457c79b2ace41215bcc1f1ca966c9
+  mob_sharesdk: e906a03f75d03ba1404fb046e055160c8258242d
+  MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
   "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
-  UserProject: 846b4a46317269404042b22d7f17ae076b63f709
+  UserProject: e66ac2d174b7d58b78e6970dc8bc6b077db9e672
 
 PODFILE CHECKSUM: ec3eb642be13a2a8ed359a4be7ba4d3d17d015a9
 

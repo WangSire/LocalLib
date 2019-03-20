@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <MBMediator+User.h>
 #import <MBMediator+Home.h>
+
 @interface ViewController ()
 
 @end
@@ -18,17 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    self.view.backgroundColor = [UIColor redColor];
+    UIButton *pushNext = [UIButton buttonWithType:UIButtonTypeCustom];
+    pushNext.frame = CGRectMake(100, 100, 200, 30);
+    [pushNext setTitle:@"跳转到下一个" forState:UIControlStateNormal];
+    [pushNext setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [pushNext addTarget:self action:@selector(pushNextClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:pushNext];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    
+-(void)pushNextClick{
     [self presentViewController:[[MBMediator share] backUserView:@{}] animated:YES completion:nil];
-//    [self presentViewController:[[MBMediator share] backHomeView:@{@"VCName":@"Home"}] animated:YES completion:nil];
 }
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
