@@ -1,6 +1,0 @@
-platform :ios,'8.0'
-target 'LocalKu' do
-pod 'MediatorProject', :path => '../MediatorProject'
-pod 'UserProject', :path => '../UserProject'
-pod 'HomeProject', :path => '../HomeProject'
-end
