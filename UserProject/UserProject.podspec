@@ -133,5 +133,10 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
    spec.dependency "Masonry", "~> 1.1.0"
    spec.dependency "MediatorProject"
+    spec.dependency "mob_sharesdk"
+    spec.dependency "mob_sharesdk/ShareSDKPlatforms/WeChat"
+    spec.dependency "mob_sharesdk/ShareSDKPlatforms/QQ"
+    spec.dependency "mob_sharesdk/ShareSDKUI"
+    spec.dependency "mob_sharesdk/ShareSDKExtension"
 
 end
