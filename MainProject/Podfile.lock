@@ -3,7 +3,6 @@ PODS:
   - MediatorProject (0.0.1)
   - UserProject (0.0.1):
     - Masonry (~> 1.1.0)
-    - MediatorProject
 
 DEPENDENCIES:
   - MediatorProject (from `../MediatorProject`)
@@ -22,7 +21,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MediatorProject: 8f004c5ed71457c79b2ace41215bcc1f1ca966c9
-  UserProject: 846b4a46317269404042b22d7f17ae076b63f709
+  UserProject: ada8e9342f9b224e25d26dc38bf938a716c63838
 
 PODFILE CHECKSUM: 0340509bf630de759eb8d1b2b89684fdc08e6692
 
