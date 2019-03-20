@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     UIButton *pushNext = [UIButton buttonWithType:UIButtonTypeCustom];
-    pushNext.frame = CGRectMake(100, 100, 200, 30);
+    pushNext.frame = CGRectMake(70, 200, 200, 30);
     [pushNext setTitle:@"跳转到下一个" forState:UIControlStateNormal];
     [pushNext setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [pushNext addTarget:self action:@selector(pushNextClick) forControlEvents:UIControlEventTouchUpInside];
