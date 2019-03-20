@@ -47,6 +47,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		76C55A2066C053EC74FBCA4EB3A47C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC3E2832B00BF101FFB1D353458BACEB;
+			remoteInfo = MediatorProject;
+		};
 		8ED6DABAD0B21C977FF12ABA4B07B0DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -504,6 +511,7 @@
 			);
 			dependencies = (
 				46AF738BA03B1013B05D35975F79AFE6 /* PBXTargetDependency */,
+				070D56D1142DA426B6A9221D3027580D /* PBXTargetDependency */,
 			);
 			name = UserProject;
 			productName = UserProject;
@@ -589,6 +597,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		070D56D1142DA426B6A9221D3027580D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MediatorProject;
+			target = AC3E2832B00BF101FFB1D353458BACEB /* MediatorProject */;
+			targetProxy = 76C55A2066C053EC74FBCA4EB3A47C22 /* PBXContainerItemProxy */;
+		};
 		46AF738BA03B1013B05D35975F79AFE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;

@@ -36,9 +36,8 @@
 }
 
 -(void)payBtnClick{
-//    [self.navigationController pushViewController:[[MBMediator share] backHomeView:nil] animated:YES];
-    
-//    [self presentViewController:[[MBMediator share] backHomeView:@{@"VCName":@"Home"}] animated:YES completion:nil];
+   
+    [self presentViewController:[[MBMediator share] backHomeView:@{@"VCName":@"Home"}] animated:YES completion:nil];
 }
 
 
