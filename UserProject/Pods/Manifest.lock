@@ -1,0 +1,33 @@
+PODS:
+  - HomeProject (0.0.1):
+    - Masonry (~> 1.1.0)
+    - "UITableView+FDTemplateLayoutCell (~> 1.6)"
+  - Masonry (1.1.0)
+  - MediatorProject (0.0.1)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+
+DEPENDENCIES:
+  - HomeProject (from `../HomeProject`)
+  - Masonry (~> 1.1.0)
+  - MediatorProject (from `../MediatorProject`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - "UITableView+FDTemplateLayoutCell"
+
+EXTERNAL SOURCES:
+  HomeProject:
+    :path: "../HomeProject"
+  MediatorProject:
+    :path: "../MediatorProject"
+
+SPEC CHECKSUMS:
+  HomeProject: 331cc20951051d7275c62d25082390b0f91a7705
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MediatorProject: ab7643acf25dace963039984d1eff71e641914b4
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+
+PODFILE CHECKSUM: ead6caafb941e7badcb029918e5cb2541da7504b
+
+COCOAPODS: 1.6.1

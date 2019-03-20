@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import <MBMediator+User.h>
+#import <MBMediator+Home.h>
 @interface ViewController ()
 
 @end
