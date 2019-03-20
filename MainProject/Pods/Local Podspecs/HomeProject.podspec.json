@@ -1,0 +1,31 @@
+{
+  "name": "HomeProject",
+  "version": "0.0.1",
+  "summary": "首页",
+  "description": "首页模块",
+  "homepage": "http://EXAMPLE/HomeProject",
+  "license": "MIT",
+  "authors": {
+    "Siri": "75486736@qq.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": "HomeProject/ProjectDirectory/**/*.{h,m}",
+  "resources": "HomeProject/ProjectDirectory/LocalResources/*.png",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "UITableView+FDTemplateLayoutCell": [
+      "~> 1.6"
+    ]
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

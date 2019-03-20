@@ -97,9 +97,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/../../HomeProject/HomeProject/ProjectDirectory/LocalResources/bankName.png"
   install_resource "${PODS_ROOT}/../../UserProject/UserProject/ProjectDirectory/LocalResources/head.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/../../HomeProject/HomeProject/ProjectDirectory/LocalResources/bankName.png"
   install_resource "${PODS_ROOT}/../../UserProject/UserProject/ProjectDirectory/LocalResources/head.png"
 fi
 

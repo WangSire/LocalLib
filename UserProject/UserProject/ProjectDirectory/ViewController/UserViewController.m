@@ -30,6 +30,11 @@
     
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 -(void)payBtnClick{
 //    [self.navigationController pushViewController:[[MBMediator share] backHomeView:nil] animated:YES];
     

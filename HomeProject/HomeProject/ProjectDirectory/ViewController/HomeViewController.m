@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import <Masonry.h>
+//#import <MBMediator+User.h>
 @interface HomeViewController ()
 
 @end
@@ -19,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.title = @"首页";
+    
     self.view.backgroundColor = [UIColor whiteColor];
     UIImageView *imgView = [[UIImageView alloc]init];
     imgView.image = [UIImage imageNamed:@"bankName"];

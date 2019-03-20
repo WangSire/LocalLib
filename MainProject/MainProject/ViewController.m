@@ -19,13 +19,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     
-    //[self presentViewController:[[MBMediator share] backUserView:@{}] animated:YES completion:nil];
-    [self presentViewController:[[MBMediator share] backHomeView:@{@"VCName":@"home"}] animated:YES completion:nil];
+    [self presentViewController:[[MBMediator share] backUserView:@{}] animated:YES completion:nil];
+//    [self presentViewController:[[MBMediator share] backHomeView:@{@"VCName":@"Home"}] animated:YES completion:nil];
 }
 
 
