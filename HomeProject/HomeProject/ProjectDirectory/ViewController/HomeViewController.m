@@ -25,7 +25,9 @@
     imgView.frame = CGRectMake(100, 100, 100, 100);
     [self.view addSubview:imgView];
 }
-
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"123");
+}
 -(void)showMainName
 {
     NSLog(@"%s",__func__);
