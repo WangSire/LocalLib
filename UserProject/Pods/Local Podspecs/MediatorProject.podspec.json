@@ -12,8 +12,8 @@
     "git": "",
     "tag": "0.0.1"
   },
-  "source_files": "MediatorProject/ChildModule/*.{h,m}",
-  "vendored_frameworks": "MediatorProject/ChildModule/*.framework",
+  "source_files": "MediatorProject/TotalDirectory/ChildModule/*.{h,m}",
+  "vendored_frameworks": "MediatorProject/TotalDirectory/LocalFramework/*.framework",
   "platforms": {
     "osx": null,
     "ios": null,

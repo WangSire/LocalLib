@@ -1,1 +1,1 @@
-../../../../../MediatorProject/MediatorProject/ChildModule/MBMediator+Home.h
+../../../../../MediatorProject/MediatorProject/TotalDirectory/ChildModule/MBMediator+Home.h
